@@ -1,6 +1,9 @@
 package net.jonathan.mccourse;
 
 import com.mojang.logging.LogUtils;
+import net.jonathan.mccourse.block.ModBlock;
+import net.jonathan.mccourse.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -22,6 +25,9 @@ public class MCCourseMod {
     public MCCourseMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+        ModBlock.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -34,7 +40,42 @@ public class MCCourseMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ALEXANDRITE);
+            event.accept(ModItems.RAW_ALEXANDRITE);
+            event.accept(ModItems.SUPER_POWERFULL_INGOT);
+            event.accept(ModItems.RAW_SUPER_POWERFULL);
+            event.accept(ModItems.HALLOWEEN_PUMPKIN);
 
+
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
+            event.accept(ModBlock.ALEXANDRITE_BLOCK);
+
+            event.accept(ModBlock.END_STONE_ALEXANDRITE_ORE);
+
+            event.accept(ModBlock.RAW_ALEXANDRITE_BLOCK);
+
+            event.accept(ModBlock.DEEPSLATE_ALEXANDRITE_ORE);
+
+            event.accept(ModBlock.ALEXNDRITE_ORE);
+
+            event.accept(ModBlock.NETHER_ALEXANDRITE_ORE);
+
+            event.accept(ModBlock.RAW_SUPER_POWERFULL_BLOCK);
+
+            event.accept(ModBlock.SUPER_POWERFULL_BLOCK);
+
+
+
+
+
+
+
+
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
