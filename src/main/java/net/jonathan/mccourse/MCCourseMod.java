@@ -2,6 +2,7 @@ package net.jonathan.mccourse;
 
 import com.mojang.logging.LogUtils;
 import net.jonathan.mccourse.block.ModBlock;
+import net.jonathan.mccourse.item.ModCreativeModeTabs;
 import net.jonathan.mccourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,6 +25,8 @@ public class MCCourseMod {
 
     public MCCourseMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlock.register(modEventBus);
