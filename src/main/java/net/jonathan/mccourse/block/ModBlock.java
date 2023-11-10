@@ -33,19 +33,19 @@ public class ModBlock {
 
     public static final  RegistryObject<Block> ALEXNDRITE_ORE = registerBlock("alexandrite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(500, 700)));
 
 
     public static final  RegistryObject<Block> DEEPSLATE_ALEXANDRITE_ORE = registerBlock("deepslate_alexandrite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(150, 300)));
     public static final  RegistryObject<Block> END_STONE_ALEXANDRITE_ORE = registerBlock("end_stone_alexandrite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(400, 500)));
 
     public static final  RegistryObject<Block> NETHER_ALEXANDRITE_ORE = registerBlock("nether_alexandrite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(200, 300)));
 
     public static final  RegistryObject<Block> RAW_SUPER_POWERFULL_BLOCK = registerBlock("raw_super_powerfull_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
