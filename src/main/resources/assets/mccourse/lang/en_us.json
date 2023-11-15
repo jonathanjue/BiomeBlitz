@@ -1,6 +1,10 @@
 {
   "item.mccourse.alexandrite": "Alexandrite",
 
+  "item.mccourse.kohlrabi": "EAT YOUR BROCOLI",
+
+  "item.mccourse.metal_detector": "Metal Detector",
+
   "item.mccourse.raw_alexandrite": "Raw Alexandrite",
 
   "item.mccourse.super_powerfull_ingot": "Super Powerfull Ingot",
@@ -25,5 +29,9 @@
 
   "block.mccourse.super_powerfull_block": "Super Powerfull Block",
 
-  "creativetab.course_tab": "Course Tab"
+  "block.mccourse.sound_block": "Sound Block",
+
+  "creativetab.course_tab": "Course Tab",
+
+  "item.mccourse.metal_detector.no_valuables": "No Valuables Found!"
 }

@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ALEXANDRITE.get());
                         output.accept(ModItems.RAW_SUPER_POWERFULL.get());
                         output.accept(ModItems.SUPER_POWERFULL_INGOT.get());
+                        output.accept(ModItems.KOHLRABI.get());
 
                         output.accept(ModBlock.ALEXANDRITE_BLOCK.get());
                         output.accept(ModBlock.SUPER_POWERFULL_BLOCK.get());
@@ -32,6 +33,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlock.END_STONE_ALEXANDRITE_ORE.get());
                         output.accept(ModBlock.NETHER_ALEXANDRITE_ORE.get());
                         output.accept(ModBlock.RAW_SUPER_POWERFULL_BLOCK.get());
+                        output.accept(ModBlock.SOUND_BLOCK.get());
+
+
+                        output.accept(ModItems.METAL_DETECTOR.get());
 
 
 

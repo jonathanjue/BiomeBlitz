@@ -1,6 +1,7 @@
 package net.jonathan.mccourse.block;
 
 import net.jonathan.mccourse.MCCourseMod;
+import net.jonathan.mccourse.block.custom.SoundBlock;
 import net.jonathan.mccourse.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -27,6 +28,13 @@ public class ModBlock {
     public static final  RegistryObject<Block> ALEXANDRITE_BLOCK = registerBlock("alexandrite_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+
+    public static final  RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+
     public static final  RegistryObject<Block> RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
@@ -37,14 +45,14 @@ public class ModBlock {
 
 
     public static final  RegistryObject<Block> DEEPSLATE_ALEXANDRITE_ORE = registerBlock("deepslate_alexandrite_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(150, 300)));
     public static final  RegistryObject<Block> END_STONE_ALEXANDRITE_ORE = registerBlock("end_stone_alexandrite_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(400, 500)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(600, 1000)));
 
     public static final  RegistryObject<Block> NETHER_ALEXANDRITE_ORE = registerBlock("nether_alexandrite_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(200, 300)));
 
     public static final  RegistryObject<Block> RAW_SUPER_POWERFULL_BLOCK = registerBlock("raw_super_powerfull_block",
