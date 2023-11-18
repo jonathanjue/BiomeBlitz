@@ -1,7 +1,7 @@
 package net.jonathan.mccourse;
 
 import com.mojang.logging.LogUtils;
-import net.jonathan.mccourse.block.ModBlock;
+import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.item.ModCreativeModeTabs;
 import net.jonathan.mccourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,7 +29,7 @@ public class MCCourseMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
-        ModBlock.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -55,21 +55,21 @@ public class MCCourseMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
-            event.accept(ModBlock.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
 
-            event.accept(ModBlock.END_STONE_ALEXANDRITE_ORE);
+            event.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE);
 
-            event.accept(ModBlock.RAW_ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
 
-            event.accept(ModBlock.DEEPSLATE_ALEXANDRITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
 
-            event.accept(ModBlock.ALEXNDRITE_ORE);
+            event.accept(ModBlocks.ALEXNDRITE_ORE);
 
-            event.accept(ModBlock.NETHER_ALEXANDRITE_ORE);
+            event.accept(ModBlocks.NETHER_ALEXANDRITE_ORE);
 
-            event.accept(ModBlock.RAW_SUPER_POWERFULL_BLOCK);
+            event.accept(ModBlocks.RAW_SUPER_POWERFULL_BLOCK);
 
-            event.accept(ModBlock.SUPER_POWERFULL_BLOCK);
+            event.accept(ModBlocks.SUPER_POWERFULL_BLOCK);
 
 
 

@@ -1,6 +1,7 @@
 package net.jonathan.mccourse.item;
 
 import net.jonathan.mccourse.MCCourseMod;
+import net.jonathan.mccourse.item.custom.FuelItem;
 import net.jonathan.mccourse.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +25,8 @@ public class ModItems {
 
             public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
                     () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
+            public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
+                    () -> new FuelItem(new Item.Properties(), 1000));
 
 
             public static final RegistryObject<Item> SUPER_POWERFULL_INGOT = ITEMS.register("super_powerfull_ingot",
@@ -32,8 +35,9 @@ public class ModItems {
                     () -> new Item(new Item.Properties()));
             public static final RegistryObject<Item> HALLOWEEN_PUMPKIN = ITEMS.register("halloween_pumpkin",
                     () -> new Item(new Item.Properties()));
-
-
+            // The half Netherite half alexandrite forged sword
+            public static final RegistryObject<Item> BEST_SWORD = ITEMS.register("best_sword",
+                    () -> new Item(new Item.Properties()));
 
 
 

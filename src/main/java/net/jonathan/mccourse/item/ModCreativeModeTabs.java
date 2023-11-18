@@ -1,11 +1,10 @@
 package net.jonathan.mccourse.item;
 
 import net.jonathan.mccourse.MCCourseMod;
-import net.jonathan.mccourse.block.ModBlock;
+import net.jonathan.mccourse.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,16 +23,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_SUPER_POWERFULL.get());
                         output.accept(ModItems.SUPER_POWERFULL_INGOT.get());
                         output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.PEAT_BRICK.get());
 
-                        output.accept(ModBlock.ALEXANDRITE_BLOCK.get());
-                        output.accept(ModBlock.SUPER_POWERFULL_BLOCK.get());
-                        output.accept(ModBlock.ALEXNDRITE_ORE.get());
-                        output.accept(ModBlock.RAW_ALEXANDRITE_BLOCK.get());
-                        output.accept(ModBlock.DEEPSLATE_ALEXANDRITE_ORE.get());
-                        output.accept(ModBlock.END_STONE_ALEXANDRITE_ORE.get());
-                        output.accept(ModBlock.NETHER_ALEXANDRITE_ORE.get());
-                        output.accept(ModBlock.RAW_SUPER_POWERFULL_BLOCK.get());
-                        output.accept(ModBlock.SOUND_BLOCK.get());
+
+                        output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.SUPER_POWERFULL_BLOCK.get());
+                        output.accept(ModBlocks.ALEXNDRITE_ORE.get());
+                        output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.RAW_SUPER_POWERFULL_BLOCK.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
 
                         output.accept(ModItems.METAL_DETECTOR.get());

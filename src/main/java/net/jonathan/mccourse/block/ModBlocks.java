@@ -20,7 +20,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class ModBlock {
+public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, MCCourseMod.MOD_ID);
 
@@ -51,16 +51,21 @@ public class ModBlock {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(600, 1000)));
 
+    public static final  RegistryObject<Block> NETHER_STAR_BLOCK = registerBlock("nether_star_block",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(600, 1000)));
+
+
     public static final  RegistryObject<Block> NETHER_ALEXANDRITE_ORE = registerBlock("nether_alexandrite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(200, 300)));
 
     public static final  RegistryObject<Block> RAW_SUPER_POWERFULL_BLOCK = registerBlock("raw_super_powerfull_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
     public static final  RegistryObject<Block> SUPER_POWERFULL_BLOCK = registerBlock("super_powerfull_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
 
