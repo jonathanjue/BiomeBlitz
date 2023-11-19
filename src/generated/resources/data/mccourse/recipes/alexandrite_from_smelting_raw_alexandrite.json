@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 1000.0,
+  "group": "alexandrite",
+  "ingredient": {
+    "item": "mccourse:raw_alexandrite"
+  },
+  "result": "mccourse:alexandrite"
+}

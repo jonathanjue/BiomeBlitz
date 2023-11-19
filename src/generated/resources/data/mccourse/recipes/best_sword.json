@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "TFM",
+    "GVR"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:trident"
+    },
+    "N": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "T": {
+      "item": "minecraft:netherite_boots"
+    },
+    "F": {
+      "item": "minecraft:netherite_sword"
+    },
+    "M": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "V": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "R": {
+      "item": "minecraft:raw_gold_block"
+    }
+  },
+  "result": {}
+}
