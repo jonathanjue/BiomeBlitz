@@ -73,11 +73,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.ALEXANDRITE.get())
                 .define('E', ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NETHER_STAR_BLOCK.get())
                 .pattern("A A")
-                .pattern(" N ")
-                .pattern("ANA")
-                .define('A', ModBlocks.ALEXANDRITE_BLOCK.get())
+                .pattern("   ")
+                .pattern("A A")
+                .define('A', ModBlocks.ALEXANDRITE_STAIRS.get())
                 // Nether Star BLock
 
 
