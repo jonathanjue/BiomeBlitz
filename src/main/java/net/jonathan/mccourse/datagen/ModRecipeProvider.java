@@ -71,14 +71,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AEA")
                 .pattern("AAA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('E', ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NETHER_STAR_BLOCK.get())
-                .pattern("A A")
-                .pattern("   ")
-                .pattern("A A")
-                .define('A', ModBlocks.ALEXANDRITE_STAIRS.get())
-                // Nether Star BLock
+                .define('E', ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
 
 
 
@@ -108,7 +101,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 "mccourse:raw_alexandrite", "alexandrite", "mccourse:raw_alexandrite_block", "alexandrite");
         oreSmelting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 1000, 50, "alexandrite");
         oreBlasting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 1500, 25, "alexandrite");
-
 
 
     }

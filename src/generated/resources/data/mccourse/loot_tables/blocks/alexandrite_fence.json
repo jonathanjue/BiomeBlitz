@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mccourse:nether_star_block"
+          "name": "mccourse:alexandrite_fence"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "mccourse:blocks/nether_star_block"
+  "random_sequence": "mccourse:blocks/alexandrite_fence"
 }

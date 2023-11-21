@@ -3,6 +3,9 @@ package net.jonathan.mccourse.datagen;
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.util.ModTags;
+import net.jonathan.mccourse.MCCourseMod;
+import net.jonathan.mccourse.block.ModBlocks;
+import net.jonathan.mccourse.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -26,40 +29,37 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ALEXANDRITE_BLOCK.get(),
-                ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
-                ModBlocks.ALEXNDRITE_ORE.get(),
-                ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
-                ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
-                ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
-                ModBlocks.SOUND_BLOCK.get());
-                ModBlocks.ALEXANDRITE_STAIRS.get();
-                ModBlocks.ALEXANDRITE_SLAB.get();
-
-
-                this.tag(BlockTags.NEEDS_STONE_TOOL);
-
-
-        this.tag(BlockTags.NEEDS_IRON_TOOL);
-                        ModBlocks.ALEXNDRITE_ORE.get();
-                        ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get();
-                        ModBlocks.ALEXANDRITE_STAIRS.get();
-                        ModBlocks.ALEXANDRITE_SLAB.get();
-
-
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.ALEXANDRITE_BLOCK.get(),
                         ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
                         ModBlocks.ALEXNDRITE_ORE.get(),
                         ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
                         ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
                         ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
-                        ModBlocks.SOUND_BLOCK.get());
-                        ModBlocks.ALEXANDRITE_STAIRS.get();
-                        ModBlocks.ALEXANDRITE_SLAB.get();
+                        ModBlocks.SOUND_BLOCK.get(),
+                        ModBlocks.ALEXANDRITE_STAIRS.get(),
+                        ModBlocks.ALEXANDRITE_SLAB.get());
+
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get(),
+                        ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
+                        ModBlocks.ALEXNDRITE_ORE.get(),
+                        ModBlocks.SOUND_BLOCK.get(),
+                        ModBlocks.ALEXANDRITE_STAIRS.get(),
+                        ModBlocks.ALEXANDRITE_SLAB.get());
+
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+                        ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+                        ModBlocks.ALEXNDRITE_ORE.get();
 
 
 
-
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.ALEXANDRITE_FENCE.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.ALEXANDRITE_WALL.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
     }
 
     @Override
