@@ -55,6 +55,14 @@
 
   "creativetab.course_tab": "Course Tab",
 
+  "item.mccourse.alexandrite_axe": "Alexandrite Axe",
+  "item.mccourse.alexandrite_sword": "Alexandrite Sword",
+  "item.mccourse.alexandrite_shovel": "Alexandrite Shovel",
+  "item.mccourse.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.mccourse.alexandrite_hoe": "Alexandrite Scythe",
+  "item.mccourse.alexandrite_paxel": "Alexandrite Paxel",
+  "item.mccourse.alexandrite_hammer": "Alexandrite Hammer",
+
   "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
 
   "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables",

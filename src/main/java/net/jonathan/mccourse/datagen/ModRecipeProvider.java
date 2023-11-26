@@ -14,6 +14,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
@@ -42,7 +43,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXNDRITE_ORE.get())
+                .pattern("AAA")
+                .pattern("ADA")
+                .pattern("AAA")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('D', ModBlocks.ALEXNDRITE_ORE.get());
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXNDRITE_ORE.get())
                 .pattern("AAA")
                 .pattern("ADA")
                 .pattern("AAA")
@@ -50,28 +58,164 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('D', ModBlocks.ALEXNDRITE_ORE.get());
 
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get())
                 .pattern("AAA")
                 .pattern("ADA")
                 .pattern("AAA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('D', ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
+                .define('D', Blocks.DEEPSLATE);
 
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NETHER_ALEXANDRITE_ORE.get())
                 .pattern("AAA")
                 .pattern("ANA")
                 .pattern("AAA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+                .define('N', Blocks.NETHERRACK);
 
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
                 .pattern("AAA")
                 .pattern("AEA")
                 .pattern("AAA")
+                .define('A', ModItems.RAW_ALEXANDRITE.get())
+                .define('E', Blocks.END_STONE);
+
+
+
+// Alexandrite Helmet
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+                .pattern("AAA")
+                .pattern("ANA")
+                .pattern("G#G")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('E', ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK);
+// Alexandrite ChestPlate
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+                .pattern("ACA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK);
+// Alexandrite Leggings
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+                .pattern("AAA")
+                .pattern("ALA")
+                .pattern("ATA")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK);
+// Alexandrite Boots
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+                .pattern("GDG")
+                .pattern("A#A")
+                .pattern("ABA")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK)
+                .define('P', Items.DRAGON_EGG)
+                .define('O', Items.DRAGON_HEAD);
+
+// Alexandrite Sword
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SWORD.get())
+                .pattern("OAO")
+                .pattern("#A#")
+                .pattern("GTG")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK)
+                .define('P', Items.DRAGON_EGG)
+                .define('O', Items.DRAGON_HEAD);
+
+//Pickaxe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_PICKAXE.get())
+                .pattern("AAA")
+                .pattern("G#G")
+                .pattern("D#D")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK)
+                .define('P', Items.DRAGON_EGG)
+                .define('O', Items.DRAGON_HEAD);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_AXE.get())
+                .pattern("AAA")
+                .pattern("G#A")
+                .pattern("G#D")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK)
+                .define('P', Items.DRAGON_EGG)
+                .define('O', Items.DRAGON_HEAD);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SHOVEL.get())
+                .pattern("OAO")
+                .pattern("G#G")
+                .pattern("G#D")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .define('C', Items.NETHERITE_CHESTPLATE)
+                .define('L', Items.NETHERITE_LEGGINGS)
+                .define('B', Items.NETHERITE_BOOTS)
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('E', Items.NETHERITE_BLOCK)
+                .define('P', Items.DRAGON_EGG)
+                .define('O', Items.DRAGON_HEAD);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HOE.get())
+                .pattern("AAA")
+                .pattern("G#A")
+                .pattern("G#D")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
 
 
 

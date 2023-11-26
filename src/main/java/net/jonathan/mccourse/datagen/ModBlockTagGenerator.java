@@ -51,6 +51,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
                         ModBlocks.NETHER_ALEXANDRITE_ORE.get());
                         ModBlocks.ALEXNDRITE_ORE.get();
+                        ModBlocks.ALEXANDRITE_TRAP_DOOR.get();
+                        ModBlocks.ALEXANDRITE_DOOR.get();
+
+        this.tag(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL)
+                .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+                        ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+                        ModBlocks.ALEXNDRITE_ORE.get();
+                        ModBlocks.ALEXANDRITE_TRAP_DOOR.get();
+                        ModBlocks.ALEXANDRITE_DOOR.get();
+
+
+        this.tag(ModTags.Blocks.PAXEL_MINEABLE)
+                .addTags(BlockTags.MINEABLE_WITH_PICKAXE, BlockTags.MINEABLE_WITH_AXE, BlockTags.MINEABLE_WITH_SHOVEL);
 
 
 

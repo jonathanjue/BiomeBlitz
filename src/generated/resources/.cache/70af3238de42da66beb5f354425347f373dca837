@@ -1,5 +1,7 @@
-// 1.20	2023-11-20T13:27:43.6217924	Block Tags
+// 1.20.1	2023-11-24T13:15:30.5767276	Block Tags
 5f226d87fb0a63437b0af494c4870fc24b7dfd82 data/mccourse/tags/blocks/metal_detector_valuables.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/mccourse/tags/blocks/mineable/paxel.json
+6dd642dc4bc8d0a18816d1f9abf49125ed509a2b data/mccourse/tags/blocks/needs_alexandrite_tool.json
 43b621c9e36eb4c7ee0e97ecc2dd841d090c7821 data/minecraft/tags/blocks/fences.json
 c019d56ddaf7b3dec0cca0ef234845dd8a1007a7 data/minecraft/tags/blocks/fence_gates.json
 86725108ade1a6bbc97767feb37c95e398f05914 data/minecraft/tags/blocks/mineable/pickaxe.json
