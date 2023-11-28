@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ADA",
+    "AAA"
+  ],
+  "result": {
+    "item": "mccourse:deepslate_alexandrite_ore"
+  },
+  "show_notification": true
+}

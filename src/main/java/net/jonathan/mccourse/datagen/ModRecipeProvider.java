@@ -3,6 +3,7 @@ package net.jonathan.mccourse.datagen;
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.item.ModItems;
+import net.jonathan.mccourse.item.custom.ModArmorItem;
 import net.jonathan.mccourse.util.ModTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
@@ -38,24 +39,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
-                .define('A', ModItems.ALEXANDRITE.get());
-
-
-
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXNDRITE_ORE.get())
-                .pattern("AAA")
-                .pattern("ADA")
-                .pattern("AAA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('D', ModBlocks.ALEXNDRITE_ORE.get());
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.ALEXANDRITE_BLOCK.get()).build()))
+                .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXNDRITE_ORE.get())
-                .pattern("AAA")
-                .pattern("ADA")
-                .pattern("AAA")
-                .define('A', ModItems.ALEXANDRITE.get())
-                .define('D', ModBlocks.ALEXNDRITE_ORE.get());
+
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get())
@@ -63,7 +52,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("ADA")
                 .pattern("AAA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('D', Blocks.DEEPSLATE);
+                .define('D', Blocks.DEEPSLATE)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get()).build()))
+                .save(pWriter);
+
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NETHER_ALEXANDRITE_ORE.get())
@@ -71,7 +64,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("ANA")
                 .pattern("AAA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Blocks.NETHERRACK);
+                .define('N', Blocks.NETHERRACK)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.NETHER_ALEXANDRITE_ORE.get()).build()))
+                .save(pWriter);
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
@@ -79,85 +75,73 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AEA")
                 .pattern("AAA")
                 .define('A', ModItems.RAW_ALEXANDRITE.get())
-                .define('E', Blocks.END_STONE);
+                .define('E', Blocks.END_STONE)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.END_STONE_ALEXANDRITE_ORE.get()).build()))
+                .save(pWriter);
 
 
 
 // Alexandrite Helmet
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HELMET.get())
                 .pattern("AAA")
                 .pattern("ANA")
                 .pattern("G#G")
                 .define('A', ModItems.ALEXANDRITE.get())
                 .define('N', Items.NETHERITE_HELMET)
-                .define('C', Items.NETHERITE_CHESTPLATE)
-                .define('L', Items.NETHERITE_LEGGINGS)
-                .define('B', Items.NETHERITE_BOOTS)
                 .define('G', Items.GOLD_BLOCK)
-                .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK);
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_HELMET.get()).build()))
+                .save(pWriter);
 // Alexandrite ChestPlate
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_CHESTPLATE.get())
                 .pattern("ACA")
                 .pattern("AAA")
                 .pattern("AAA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Items.NETHERITE_HELMET)
                 .define('C', Items.NETHERITE_CHESTPLATE)
-                .define('L', Items.NETHERITE_LEGGINGS)
-                .define('B', Items.NETHERITE_BOOTS)
-                .define('G', Items.GOLD_BLOCK)
-                .define('D', Items.DIAMOND_BLOCK)
-                .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK);
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_CHESTPLATE.get()).build()))
+                .save(pWriter);
 // Alexandrite Leggings
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_LEGGING.get())
                 .pattern("AAA")
                 .pattern("ALA")
-                .pattern("ATA")
+                .pattern("A#A")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Items.NETHERITE_HELMET)
-                .define('C', Items.NETHERITE_CHESTPLATE)
                 .define('L', Items.NETHERITE_LEGGINGS)
-                .define('B', Items.NETHERITE_BOOTS)
-                .define('G', Items.GOLD_BLOCK)
-                .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK);
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_LEGGING.get()).build()))
+                .save(pWriter);
 // Alexandrite Boots
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_BOOTS.get())
                 .pattern("GDG")
                 .pattern("A#A")
                 .pattern("ABA")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Items.NETHERITE_HELMET)
-                .define('C', Items.NETHERITE_CHESTPLATE)
-                .define('L', Items.NETHERITE_LEGGINGS)
                 .define('B', Items.NETHERITE_BOOTS)
                 .define('G', Items.GOLD_BLOCK)
                 .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK)
-                .define('P', Items.DRAGON_EGG)
-                .define('O', Items.DRAGON_HEAD);
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_BOOTS.get()).build()))
+                .save(pWriter);
 
 // Alexandrite Sword
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SWORD.get())
                 .pattern("OAO")
                 .pattern("#A#")
-                .pattern("GTG")
+                .pattern("GDG")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Items.NETHERITE_HELMET)
-                .define('C', Items.NETHERITE_CHESTPLATE)
-                .define('L', Items.NETHERITE_LEGGINGS)
-                .define('B', Items.NETHERITE_BOOTS)
                 .define('G', Items.GOLD_BLOCK)
                 .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK)
-                .define('P', Items.DRAGON_EGG)
-                .define('O', Items.DRAGON_HEAD);
+                .define('O', Items.DRAGON_HEAD)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SWORD.get()).build()))
+                .save(pWriter);
 
 //Pickaxe
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_PICKAXE.get())
@@ -165,48 +149,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("G#G")
                 .pattern("D#D")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Items.NETHERITE_HELMET)
-                .define('C', Items.NETHERITE_CHESTPLATE)
-                .define('L', Items.NETHERITE_LEGGINGS)
-                .define('B', Items.NETHERITE_BOOTS)
                 .define('G', Items.GOLD_BLOCK)
                 .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK)
-                .define('P', Items.DRAGON_EGG)
-                .define('O', Items.DRAGON_HEAD);
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_PICKAXE.get()).build()))
+                .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_AXE.get())
-                .pattern("AAA")
+                .pattern("GAA")
                 .pattern("G#A")
                 .pattern("G#D")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Items.NETHERITE_HELMET)
-                .define('C', Items.NETHERITE_CHESTPLATE)
-                .define('L', Items.NETHERITE_LEGGINGS)
-                .define('B', Items.NETHERITE_BOOTS)
                 .define('G', Items.GOLD_BLOCK)
                 .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK)
-                .define('P', Items.DRAGON_EGG)
-                .define('O', Items.DRAGON_HEAD);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SHOVEL.get())
-                .pattern("OAO")
-                .pattern("G#G")
-                .pattern("G#D")
-                .define('A', ModItems.ALEXANDRITE.get())
-                .define('N', Items.NETHERITE_HELMET)
-                .define('C', Items.NETHERITE_CHESTPLATE)
-                .define('L', Items.NETHERITE_LEGGINGS)
-                .define('B', Items.NETHERITE_BOOTS)
-                .define('G', Items.GOLD_BLOCK)
-                .define('D', Items.DIAMOND_BLOCK)
-                .define('#', Items.TOTEM_OF_UNDYING)
-                .define('E', Items.NETHERITE_BLOCK)
-                .define('P', Items.DRAGON_EGG)
-                .define('O', Items.DRAGON_HEAD);
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_AXE.get()).build()))
+                .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HOE.get())
                 .pattern("AAA")
@@ -216,13 +176,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('G', Items.GOLD_BLOCK)
                 .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
-
-
-
-
-                //unlocked By Then saving it
                 .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.ALEXANDRITE.get()).build()))
+                        of(ModItems.ALEXANDRITE_HOE.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SHOVEL.get())
+                .pattern("OAO")
+                .pattern("G#G")
+                .pattern("G#D")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('G', Items.GOLD_BLOCK)
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('O', Items.DRAGON_HEAD)
+
+
+
+
+
+        //unlocked By Then saving it
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
                 .save(pWriter);
 
 

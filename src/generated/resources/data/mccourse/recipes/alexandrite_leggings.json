@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "L": {
+      "item": "minecraft:netherite_leggings"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ALA",
+    "A#A"
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_leggings"
+  },
+  "show_notification": true
+}

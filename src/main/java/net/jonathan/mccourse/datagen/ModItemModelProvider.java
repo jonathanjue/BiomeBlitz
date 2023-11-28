@@ -25,10 +25,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.ALEXANDRITE);
         simpleItem(ModItems.RAW_ALEXANDRITE);
-
         simpleItem(ModItems.KOHLRABI);
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PEAT_BRICK);
+
 
         handheldItem(ModItems.ALEXANDRITE_SWORD);
         handheldItem(ModItems.ALEXANDRITE_PICKAXE);
@@ -37,6 +37,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ALEXANDRITE_HOE);
         handheldItem(ModItems.ALEXANDRITE_PAXEL);
         handheldItem(ModItems.ALEXANDRITE_HAMMER);
+
+        simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
+
+         simpleItem(ModItems.ALEXANDRITE_HELMET);
+         simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);
+         simpleItem(ModItems.ALEXANDRITE_LEGGING);
+         simpleItem(ModItems.ALEXANDRITE_BOOTS);
 
 
         buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);

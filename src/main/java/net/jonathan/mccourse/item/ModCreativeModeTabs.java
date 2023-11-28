@@ -18,10 +18,9 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALEXANDRITE.get()))
                     .title(Component.translatable("creativetab.course_tab"))
                     .displayItems((displayParameters, output) -> {
+
                         output.accept(ModItems.ALEXANDRITE.get());
                         output.accept(ModItems.RAW_ALEXANDRITE.get());
-                        output.accept(ModItems.RAW_SUPER_POWERFULL.get());
-                        output.accept(ModItems.SUPER_POWERFULL_INGOT.get());
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.PEAT_BRICK.get());
 
@@ -35,25 +34,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.RAW_SUPER_POWERFULL_BLOCK.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());
-
                         output.accept(ModBlocks.ALEXANDRITE_SLAB.get());
                         output.accept(ModBlocks.ALEXANDRITE_STAIRS.get());
-
                         output.accept(ModBlocks.ALEXANDRITE_DOOR.get());
                         output.accept(ModBlocks.ALEXANDRITE_TRAP_DOOR.get());
-
-
                         output.accept(ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get());
                         output.accept(ModBlocks.ALEXANDRITE_BUTTON.get());
-
-
                         output.accept(ModBlocks.ALEXANDRITE_FENCE.get());
                         output.accept(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
                         output.accept(ModBlocks.ALEXANDRITE_WALL.get());
 
 
-                        output.accept(ModItems.METAL_DETECTOR.get());
 
+                        output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModItems.ALEXANDRITE_PICKAXE.get());
                         output.accept(ModItems.ALEXANDRITE_SWORD.get());
                         output.accept(ModItems.ALEXANDRITE_AXE.get());
@@ -62,6 +55,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALEXANDRITE_HOE.get());
                         output.accept(ModItems.ALEXANDRITE_PAXEL.get());
                         output.accept(ModItems.ALEXANDRITE_HAMMER.get());
+
+
+                        output.accept(ModItems.ALEXANDRITE_HELMET.get());
+                        output.accept(ModItems.ALEXANDRITE_CHESTPLATE.get());
+                        output.accept(ModItems.ALEXANDRITE_LEGGING.get());
+                        output.accept(ModItems.ALEXANDRITE_BOOTS.get());
+
+                        output.accept(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
 
 
 

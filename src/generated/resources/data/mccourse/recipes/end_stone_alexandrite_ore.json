@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:raw_alexandrite"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AEA",
+    "AAA"
+  ],
+  "result": {
+    "item": "mccourse:end_stone_alexandrite_ore"
+  },
+  "show_notification": true
+}

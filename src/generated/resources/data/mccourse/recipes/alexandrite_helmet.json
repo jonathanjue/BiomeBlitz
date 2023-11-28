@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_helmet"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ANA",
+    "G#G"
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_helmet"
+  },
+  "show_notification": true
+}

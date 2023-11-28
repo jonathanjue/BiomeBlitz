@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "B": {
+      "item": "minecraft:netherite_boots"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "GDG",
+    "A#A",
+    "ABA"
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_boots"
+  },
+  "show_notification": true
+}

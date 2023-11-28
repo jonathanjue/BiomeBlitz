@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "C": {
+      "item": "minecraft:netherite_chestplate"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_chestplate"
+  },
+  "show_notification": true
+}

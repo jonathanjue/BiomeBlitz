@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "G#G",
+    "D#D"
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_pickaxe"
+  },
+  "show_notification": true
+}

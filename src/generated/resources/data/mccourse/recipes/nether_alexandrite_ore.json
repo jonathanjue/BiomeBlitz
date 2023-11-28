@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ANA",
+    "AAA"
+  ],
+  "result": {
+    "item": "mccourse:nether_alexandrite_ore"
+  },
+  "show_notification": true
+}

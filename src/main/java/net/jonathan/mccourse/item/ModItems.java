@@ -1,10 +1,8 @@
 package net.jonathan.mccourse.item;
 
 import net.jonathan.mccourse.MCCourseMod;
-import net.jonathan.mccourse.item.custom.FuelItem;
-import net.jonathan.mccourse.item.custom.HammerItem;
-import net.jonathan.mccourse.item.custom.MetalDetectorItem;
-import net.jonathan.mccourse.item.custom.PaxelItem;
+import net.jonathan.mccourse.item.custom.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,7 +28,7 @@ public class ModItems {
             public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
                     () -> new FuelItem(new Item.Properties(), 1000));
             public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
-                    () -> new SwordItem(ModToolTiers.ALEXANDRITE, 32, -2.3f, new Item.Properties().durability(500000000)));
+                    () -> new SlowingSwordItem(ModToolTiers.ALEXANDRITE, 14, -2.3f, new Item.Properties().durability(500000000)));
             public static final RegistryObject<Item> ALEXANDRITE_PICKAXE = ITEMS.register("alexandrite_pickaxe",
                     () -> new PickaxeItem(ModToolTiers.ALEXANDRITE, 15, -3, new Item.Properties().durability(1000000000)));
             public static final RegistryObject<Item> ALEXANDRITE_SHOVEL = ITEMS.register("alexandrite_shovel",
@@ -48,17 +46,22 @@ public class ModItems {
 
 
 
+    public static final RegistryObject<Item> ALEXANDRITE_HELMET = ITEMS.register("alexandrite_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.ALEXANDRITE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE_CHESTPLATE = ITEMS.register("alexandrite_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.ALEXANDRITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE_LEGGING = ITEMS.register("alexandrite_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.ALEXANDRITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE_BOOTS = ITEMS.register("alexandrite_boots",
+            () -> new ModArmorItem(ModArmorMaterials.ALEXANDRITE, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE_HORSE_ARMOR = ITEMS.register("alexandrite_horse_armor",
+            () -> new HorseArmorItem(12, new ResourceLocation(MCCourseMod.MOD_ID, "textures/entity/horse/armor/horse_armor_alexandrite.png"), new Item.Properties()));
 
 
 
 
 
-            public static final RegistryObject<Item> SUPER_POWERFULL_INGOT = ITEMS.register("super_powerfull_ingot",
-                    () -> new Item(new Item.Properties()));
-            public static final RegistryObject<Item> RAW_SUPER_POWERFULL = ITEMS.register("raw_super_powerfull",
-                    () -> new Item(new Item.Properties()));
-            public static final RegistryObject<Item> HALLOWEEN_PUMPKIN = ITEMS.register("halloween_pumpkin",
-                    () -> new Item(new Item.Properties()));
+
 
 
 
