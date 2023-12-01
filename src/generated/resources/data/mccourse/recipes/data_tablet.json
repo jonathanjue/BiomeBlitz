@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "M": {
+      "item": "mccourse:metal_detector"
+    }
+  },
+  "pattern": [
+    "A#A",
+    "#M#",
+    "A#A"
+  ],
+  "result": {
+    "item": "mccourse:data_tablet"
+  },
+  "show_notification": true
+}

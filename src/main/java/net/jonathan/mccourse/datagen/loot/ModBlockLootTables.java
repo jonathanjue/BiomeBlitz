@@ -39,12 +39,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ALEXANDRITE_FENCE.get());
         this.dropSelf(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
         this.dropSelf(ModBlocks.ALEXANDRITE_WALL.get());
-
         this.dropSelf(ModBlocks.ALEXANDRITE_TRAP_DOOR.get());
 
         this.add(ModBlocks.ALEXANDRITE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.ALEXANDRITE_DOOR.get()));
 
+        this.dropSelf(ModBlocks.ALEXANDRITE_LAMP.get());
     }
 
     @Override

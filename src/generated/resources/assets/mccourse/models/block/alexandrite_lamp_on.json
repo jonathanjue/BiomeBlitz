@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "mccourse:block/raw_super_powerfull_block"
+    "all": "mccourse:block/alexandrite_lamp_on"
   }
 }

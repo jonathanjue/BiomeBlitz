@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-27T20:02:40.3617773	Recipes
+// 1.20.1	2023-11-30T15:58:17.6744152	Recipes
 15201a36d0ae05c11f8a82b7b43dcf940f56c7f4 data/mccourse/advancements/recipes/misc/alexandrite.json
 5f3deb61d8911289bb60292d013061ea37d3a8b1 data/mccourse/advancements/recipes/misc/alexandrite_axe.json
 9b383a7587dfa57c951f0fb408c130ce39da12ab data/mccourse/advancements/recipes/misc/alexandrite_block.json
@@ -20,8 +20,10 @@ e22cc50dc9b0273b567cf9e9c34705ff76b064e3 data/mccourse/advancements/recipes/misc
 f18f675838fb487123c3515f54c4e166cebe4825 data/mccourse/advancements/recipes/misc/alexandrite_pickaxe.json
 500a28a901ad3273dc5b4fc7a9f78e45398655e2 data/mccourse/advancements/recipes/misc/alexandrite_shovel.json
 047b2984ff7b49b143c4f23591c5fc18c43731cd data/mccourse/advancements/recipes/misc/alexandrite_sword.json
+cc7ae5896444bed0f054b89316759243cdd5169e data/mccourse/advancements/recipes/misc/data_tablet.json
 b45fd17bcf431f9e8aa8878bd28587d319690ad9 data/mccourse/advancements/recipes/misc/deepslate_alexandrite_ore.json
 db267be55d1fae61cb117dbb4c5006276f3c76f9 data/mccourse/advancements/recipes/misc/end_stone_alexandrite_ore.json
+1f1a79aaba85e2317e71b2d6cf7624f0782eb171 data/mccourse/advancements/recipes/misc/metal_detector.json
 c4a038a0d765d0fee27f602e3675218281b161e9 data/mccourse/advancements/recipes/misc/nether_alexandrite_ore.json
 e73e936ffd0b7189e92d0e3ee64b131a5231a4c2 data/mccourse/advancements/recipes/misc/raw_alexandrite.json
 9ee2cebe9c88508ec4dc7e5d38cbf87b45c51dd6 data/mccourse/advancements/recipes/misc/raw_alexandrite_block.json
@@ -46,8 +48,10 @@ d2ab00f47ad0fd2aa4863301052675c836beba50 data/mccourse/recipes/alexandrite_from_
 e2bf0937cfe8e0a1b21a2c6904c27a6d8d9fe5f5 data/mccourse/recipes/alexandrite_pickaxe.json
 db99961c0b2f88f5414d2947e34a984874d97281 data/mccourse/recipes/alexandrite_shovel.json
 6fc9f92ef825bc68a650280b62cb3a1d8a383071 data/mccourse/recipes/alexandrite_sword.json
+2a29451e9167793f9af9f9c0f178edd697a3e200 data/mccourse/recipes/data_tablet.json
 a5b64a87f8d660f7bd773fac7e48e73f418c0235 data/mccourse/recipes/deepslate_alexandrite_ore.json
 f86f8f35db325d16a16e4d12f8c2ea8249ea1450 data/mccourse/recipes/end_stone_alexandrite_ore.json
+f51e3604f74b69bb9b9b1a7561ba2129a82f4ef1 data/mccourse/recipes/metal_detector.json
 2a9562923a912f96f7db7601d746d5735a9b1fe7 data/mccourse/recipes/nether_alexandrite_ore.json
 6d219fbbf4741f7e642c23aa37a0f98f1f935e87 data/mccourse/recipes/raw_alexandrite.json
 361ee738a087c70c075acc2f440215157c9dd2d0 data/mccourse/recipes/raw_alexandrite_block.json

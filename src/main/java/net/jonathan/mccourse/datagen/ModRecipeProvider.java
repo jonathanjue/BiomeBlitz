@@ -180,6 +180,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         of(ModItems.ALEXANDRITE_HOE.get()).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.METAL_DETECTOR.get())
+                .pattern("AAA")
+                .pattern("A#A")
+                .pattern("S#S")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('S', Items.STICK)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.METAL_DETECTOR.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DATA_TABLET.get())
+                .pattern("A#A")
+                .pattern("#M#")
+                .pattern("A#A")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('M', ModItems.METAL_DETECTOR.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.DATA_TABLET.get()).build()))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SHOVEL.get())
                 .pattern("OAO")
                 .pattern("G#G")

@@ -65,6 +65,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
 
 
+                        output.accept(ModBlocks.ALEXANDRITE_LAMP.get());
+
+
+                        output.accept(ModItems.DATA_TABLET.get());
+
+
 
                     }).build());
 

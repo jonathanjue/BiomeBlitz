@@ -2,7 +2,6 @@ package net.jonathan.mccourse.datagen;
 
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.item.ModItems;
-import net.jonathan.mccourse.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -15,19 +14,18 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModItemTagGenerator extends ItemTagsProvider {
     public ModItemTagGenerator(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> future,
-                               CompletableFuture<TagLookup<Block>> pBlockTags, @Nullable ExistingFileHelper existingFileHelper) {
-        super(packOutput, future, pBlockTags, MCCourseMod.MOD_ID, existingFileHelper);
+                               CompletableFuture<TagLookup<Block>> completableFuture, @Nullable ExistingFileHelper existingFileHelper) {
+        super(packOutput, future, completableFuture, MCCourseMod.MOD_ID, existingFileHelper);
     }
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-
+        // Add Item Tags here
         this.tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.ALEXANDRITE_HELMET.get())
-                .add(ModItems.ALEXANDRITE_CHESTPLATE.get())
-                .add(ModItems.ALEXANDRITE_LEGGING.get())
-                .add(ModItems.ALEXANDRITE_BOOTS.get());
-
+                .add(ModItems.ALEXANDRITE_HELMET.get(),
+                        ModItems.ALEXANDRITE_CHESTPLATE.get(),
+                        ModItems.ALEXANDRITE_LEGGING.get(),
+                        ModItems.ALEXANDRITE_BOOTS.get());
     }
 
     @Override

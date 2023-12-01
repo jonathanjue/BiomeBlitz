@@ -1,6 +1,5 @@
 package net.jonathan.mccourse.datagen;
 
-import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.util.ModTags;
 import net.jonathan.mccourse.MCCourseMod;
@@ -48,25 +47,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
-                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
-                        ModBlocks.NETHER_ALEXANDRITE_ORE.get());
-                        ModBlocks.ALEXNDRITE_ORE.get();
-                        ModBlocks.ALEXANDRITE_TRAP_DOOR.get();
-                        ModBlocks.ALEXANDRITE_DOOR.get();
+                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
 
         this.tag(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL)
-                .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
-                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
-                        ModBlocks.NETHER_ALEXANDRITE_ORE.get());
-                        ModBlocks.ALEXNDRITE_ORE.get();
-                        ModBlocks.ALEXANDRITE_TRAP_DOOR.get();
-                        ModBlocks.ALEXANDRITE_DOOR.get();
-
+                .add(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
 
         this.tag(ModTags.Blocks.PAXEL_MINEABLE)
-                .addTags(BlockTags.MINEABLE_WITH_PICKAXE, BlockTags.MINEABLE_WITH_AXE, BlockTags.MINEABLE_WITH_SHOVEL);
-
-
+                .addTag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .addTag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .addTag(BlockTags.MINEABLE_WITH_AXE);
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.ALEXANDRITE_FENCE.get());
