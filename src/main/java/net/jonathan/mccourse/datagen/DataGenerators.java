@@ -1,5 +1,5 @@
 package net.jonathan.mccourse.datagen;
-import net.jonathan.mccourse.MCCourseMod;
+
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.datagen.loot.ModBlockLootTables;
 import net.minecraft.core.HolderLookup;

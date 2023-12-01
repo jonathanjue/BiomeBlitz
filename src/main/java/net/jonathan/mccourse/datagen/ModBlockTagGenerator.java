@@ -1,7 +1,5 @@
 package net.jonathan.mccourse.datagen;
 
-import net.jonathan.mccourse.block.ModBlocks;
-import net.jonathan.mccourse.util.ModTags;
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.util.ModTags;
