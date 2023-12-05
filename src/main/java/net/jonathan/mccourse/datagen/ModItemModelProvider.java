@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -35,20 +36,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ALEXANDRITE_PAXEL);
         handheldItem(ModItems.ALEXANDRITE_HAMMER);
 
-        // simpleItem(ModItems.ALEXANDRITE_HELMET);
-        // simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);
-        // simpleItem(ModItems.ALEXANDRITE_LEGGING);
-        // simpleItem(ModItems.ALEXANDRITE_BOOTS);
+         simpleItem(ModItems.ALEXANDRITE_HELMET);
+         simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);
+         simpleItem(ModItems.ALEXANDRITE_LEGGING);
+         simpleItem(ModItems.ALEXANDRITE_BOOTS);
+
+         simpleItem(ModItems.BAR_BRAWL_RECORD);
 
         simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
         simpleItem(ModItems.KOHLRABI_SEEDS);
-        // simpleItem(ModItems.DATA_TABLET);
+        //simpleItem(ModItems.DATA_TABLET);
 
         buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
         fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);
         wallItem(ModBlocks.ALEXANDRITE_WALL, ModBlocks.ALEXANDRITE_BLOCK);
 
         simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
+        simpleBlockItem(ModBlocks.SNAPDRAGON);
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

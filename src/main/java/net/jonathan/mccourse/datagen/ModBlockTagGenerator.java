@@ -61,6 +61,21 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.ALEXANDRITE_WALL.get());
         this.tag(BlockTags.FENCE_GATES)
                 .add(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
+        this.tag(BlockTags.SOUL_FIRE_BASE_BLOCKS)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.tag(BlockTags.SOUL_SPEED_BLOCKS)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.tag(BlockTags.BEACON_BASE_BLOCKS)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.tag(BlockTags.DAMPENS_VIBRATIONS)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.tag(BlockTags.DRAGON_IMMUNE)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.tag(BlockTags.ENCHANTMENT_POWER_PROVIDER)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.tag(BlockTags.WITHER_IMMUNE)
+                .add(ModBlocks.ALEXANDRITE_BLOCK.get());
+
     }
 
     @Override

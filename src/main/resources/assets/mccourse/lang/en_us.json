@@ -1,91 +1,64 @@
 {
   "item.mccourse.alexandrite": "Alexandrite",
-
-
-  "block.mccourse.kohlrabi_seeds": "Kohlrabi Seeds",
-
-
+  "item.mccourse.raw_alexandrite": "Raw Alexandrite",
+  "item.mccourse.metal_detector": "Metal Detector",
   "item.mccourse.kohlrabi": "Kohlrabi",
-
   "item.mccourse.peat_brick": "Peat Brick",
 
-  "item.mccourse.metal_detector": "Metal Detector",
-
-  "item.mccourse.raw_alexandrite": "Raw Alexandrite",
-
-  "item.mccourse.super_powerfull_ingot": "Super Powerfull Ingot",
-
-  "item.mccourse.raw_super_powerfull": "Raw Super Powerfull",
-
-  "item.mccourse.halloween_pumpkin": "Halloween Pumpkin",
-
-  "block.mccourse.alexandrite_block": "Block Of Alexandrite",
-
-  "block.mccourse.raw_alexandrite_block": "Block Of Raw Alexandrite",
-
-  "block.mccourse.alexandrite_stairs": "Alexandrite Stairs",
-
-  "block.mccourse.alexandrite_slab": "Alexandrite Slab",
-
-  "block.mccourse.alexandrite_button": "Alexandrite Button",
-
-  "block.mccourse.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
-
-
-  "block.mccourse.alexandrite_fence": "Alexandrite Fence",
-
-  "block.mccourse.alexandrite_fence_gate": "Alexandrite Fence Gate",
-
-  "block.mccourse.alexandrite_wall": "Alexandrite Wall",
-
-  "block.mccourse.alexandrite_ore": "Alexandrite Ore",
-
-
-  "block.mccourse.alexandrite_door": "Alexandrite Door",
-
-  "block.mccourse.alexandrite_trap_door": "Alexandrite TrapDoor TD",
-
-  "block.mccourse.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
-
-  "block.mccourse.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
-
-  "block.mccourse.nether_alexandrite_ore": "Nether Alexandrite Ore",
-
-  "block.mccourse.raw_super_powerfull_block": "Raw Super Powerfull Block",
-
-  "block.mccourse.super_powerfull_block": "Super Powerfull Block",
-
-  "block.mccourse.sound_block": "Sound Block",
-
-  "creativetab.course_tab": "Course Tab",
-
   "item.mccourse.alexandrite_axe": "Alexandrite Axe",
-  "item.mccourse.alexandrite_sword": "Alexandrite Sword",
-  "item.mccourse.alexandrite_shovel": "Alexandrite Shovel",
+  "item.mccourse.alexandrite_hoe": "Alexandrite Hoe",
   "item.mccourse.alexandrite_pickaxe": "Alexandrite Pickaxe",
-  "item.mccourse.alexandrite_hoe": "Alexandrite Scythe",
+  "item.mccourse.alexandrite_shovel": "Alexandrite Shovel",
+  "item.mccourse.alexandrite_sword": "Alexandrite Sword",
   "item.mccourse.alexandrite_paxel": "Alexandrite Paxel",
   "item.mccourse.alexandrite_hammer": "Alexandrite Hammer",
-  "item.mccourse.alexandrite_horse_armor": "Alexandrite Horse Armor",
-
-
-
-  "item.mccourse.alexandrite_lamp": "Alexandrite Lamp",
-  "item.mccourse.data_tablet": "Data Tablet",
-
 
   "item.mccourse.alexandrite_helmet": "Alexandrite Helmet",
   "item.mccourse.alexandrite_chestplate": "Alexandrite Chestplate",
   "item.mccourse.alexandrite_leggings": "Alexandrite Leggings",
   "item.mccourse.alexandrite_boots": "Alexandrite Boots",
+  "item.mccourse.alexandrite_horse_armor": "Alexandrite Horse Armor",
+  "item.mccourse.data_tablet": "Data Tablet",
+  "item.mccourse.kohlrabi_seeds": "Kohlrabi Seeds",
+
+  "sounds.mccourse.metal_detector_found_ore": "Metal Detector Found an Ore",
+
+
+  "item.mccourse.bar_brawl_record": "Bar Brawl Music Disc",
+  "item.mccourse.bar_brawl_record.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+
+  "block.mccourse.gem_empowering_station.desc": "Gem Empowering Station",
+
+  "block.mccourse.alexandrite_block": "Block of Alexandrite",
+  "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite",
+
+  "block.mccourse.alexandrite_ore": "Alexandrite Ore",
+  "block.mccourse.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
+  "block.mccourse.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
+  "block.mccourse.nether_alexandrite_ore": "Nether Alexandrite Ore",
+
+  "block.mccourse.alexandrite_stairs": "Alexandrite Stairs",
+  "block.mccourse.alexandrite_slab": "Alexandrite Slab",
+  "block.mccourse.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
+  "block.mccourse.alexandrite_button": "Alexandrite Button",
+  "block.mccourse.alexandrite_fence": "Alexandrite Fence",
+  "block.mccourse.alexandrite_fence_gate": "Alexandrite Fence Gate",
+  "block.mccourse.alexandrite_wall": "Alexandrite Wall",
+  "block.mccourse.alexandrite_door": "Alexandrite Door",
+  "block.mccourse.alexandrite_trapdoor": "Alexandrite Trapdoor",
+  "block.mccourse.alexandrite_lamp": "Alexandrite Lamp",
+  "block.mccourse.snapdragon": "Snapdragon",
+
+  "block.mccourse.sound_block": "Sound Block",
+
+  "creativetab.course_tab": "Course Tab",
 
   "enchantment.mccourse.lightning_striker": "Lightning Striker",
 
-
-
   "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
 
-  "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables",
-
-  "tooltip.mccourse.metal_detector.tooltip": "Shift for more Info (Press §eSHIFT§r for more information)"
+  "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
+  "tooltip.mccourse.metal_detector.tooltip": "Press §eSHIFT§r for more Information",
+  "tooltip.mccourse.sound_block": "Plays nice sounds when walking or right-clicking."
 }

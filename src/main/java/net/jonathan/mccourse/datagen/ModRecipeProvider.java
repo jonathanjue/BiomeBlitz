@@ -202,6 +202,62 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         of(ModItems.DATA_TABLET.get()).build()))
                 .save(pWriter);
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BAR_BRAWL_RECORD.get())
+                .pattern(" # ")
+                .pattern("#A#")
+                .pattern(" # ")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('M', ModItems.METAL_DETECTOR.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.DATA_TABLET.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_PAXEL.get())
+                .pattern("SXA")
+                .pattern("V#C")
+                .pattern("A#B")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('S', ModItems.ALEXANDRITE_SWORD.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('X', ModItems.ALEXANDRITE_AXE.get())
+                .define('C', ModItems.ALEXANDRITE_PICKAXE.get())
+                .define('V', ModItems.ALEXANDRITE_SHOVEL.get())
+                .define('B', ModItems.ALEXANDRITE_HOE.get())
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.DATA_TABLET.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HAMMER.get())
+                .pattern("AAA")
+                .pattern("#M#")
+                .pattern("#M#")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('M', ModItems.ALEXANDRITE_PICKAXE.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.DATA_TABLET.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HORSE_ARMOR.get())
+                .pattern(" AA")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.DATA_TABLET.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KOHLRABI_SEEDS.get())
+                .pattern("   ")
+                .pattern(" K ")
+                .pattern("   ")
+                .define('K', ModItems.KOHLRABI.get())
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SHOVEL.get())
                 .pattern("OAO")
                 .pattern("G#G")

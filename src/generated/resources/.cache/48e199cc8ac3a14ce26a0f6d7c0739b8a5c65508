@@ -1,2 +1,6 @@
-// 1.20.1	2023-11-26T21:18:09.8352748	Item Tags
+// 1.20.1	2023-12-05T12:07:13.421221	Item Tags
+8dec6eb7a7b8a66c077b607130b7bde7ac65ffc8 data/minecraft/tags/items/beacon_payment_items.json
+d223775d67e253e09434bac425eafac923c4668d data/minecraft/tags/items/creeper_drop_music_discs.json
+d223775d67e253e09434bac425eafac923c4668d data/minecraft/tags/items/music_discs.json
+8dec6eb7a7b8a66c077b607130b7bde7ac65ffc8 data/minecraft/tags/items/piglin_loved.json
 c7cf40b65e9f80b0da876b8c7ba47601cc2eef92 data/minecraft/tags/items/trimmable_armor.json

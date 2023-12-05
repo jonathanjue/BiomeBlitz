@@ -1,6 +1,7 @@
 package net.jonathan.mccourse.item.custom;
 
 import net.jonathan.mccourse.item.ModItems;
+import net.jonathan.mccourse.sound.ModSounds;
 import net.jonathan.mccourse.util.InventoryUtil;
 import net.jonathan.mccourse.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
@@ -8,6 +9,7 @@ import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -44,6 +46,9 @@ public class MetalDetectorItem extends Item {
                     if(InventoryUtil.hasPlayerStackInInventory(player, ModItems.DATA_TABLET.get())) {
                         addDataToDataTablet(player, positionClicked.below(i), blockState.getBlock());
                     }
+
+                    pContext.getLevel().playSeededSound(null, player.getX(), player.getY(), player.getZ(),
+                            ModSounds.METAL_DETECTOR_FOUND_ORE.get(), SoundSource.BLOCKS, 1f, 1f, 0);
 
                     break;
                 }
@@ -91,34 +96,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState blockState) {
-
-        return blockState.is(Blocks.IRON_ORE) || blockState.is(Blocks.DEEPSLATE_IRON_ORE)
-                || blockState.is(Blocks.DIAMOND_ORE) || blockState.is(Blocks.DEEPSLATE_DIAMOND_ORE)
-                || blockState.is(Blocks.COPPER_ORE) || blockState.is(Blocks.DEEPSLATE_COPPER_ORE)
-                || blockState.is(Blocks.GOLD_ORE) || blockState.is(Blocks.DEEPSLATE_GOLD_ORE)
-                || blockState.is(Blocks.EMERALD_ORE) || blockState.is(Blocks.DEEPSLATE_EMERALD_ORE)
-                || blockState.is(Blocks.COAL_ORE) || blockState.is(Blocks.COAL_ORE)
-                || blockState.is(Blocks.DEEPSLATE_LAPIS_ORE) || blockState.is(Blocks.DEEPSLATE_LAPIS_ORE)
-                || blockState.is(Blocks.REDSTONE_ORE) || blockState.is(Blocks.DEEPSLATE_REDSTONE_ORE)
-                || blockState.is(Blocks.NETHER_GOLD_ORE)
-                || blockState.is(Blocks.NETHER_QUARTZ_ORE)
-                || blockState.is(Blocks.NETHERITE_BLOCK)
-                || blockState.is(Blocks.ANCIENT_DEBRIS)
-                || blockState.is(Blocks.GOLD_BLOCK)
-                || blockState.is(Blocks.IRON_BLOCK)
-                || blockState.is(Blocks.DIAMOND_BLOCK)
-                || blockState.is(Blocks.RAW_COPPER_BLOCK)
-                || blockState.is(Blocks.RAW_IRON_BLOCK)
-                || blockState.is(Blocks.RAW_GOLD_BLOCK);
-
-
-
-//                || blockState.is(ModBlock.SUPER_POWERFULL_BLOCK);
-//                || blockState.is(ModBlock.RAW_SUPER_POWERFULL_BLOCK);
-//                || blockState.is(ModBlock.ALEXNDRITE_ORE);
-//                || blockState.is(ModBlock.DEEPSLATE_ALEXANDRITE_ORE);
-//                || blockState.is(ModBlock.END_STONE_ALEXANDRITE_ORE);
-//                || blockState.is(ModBlock.NETHER_ALEXANDRITE_ORE);
-
+        return blockState.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }

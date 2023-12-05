@@ -6,12 +6,17 @@ import net.jonathan.mccourse.enchantment.ModEnchantments;
 import net.jonathan.mccourse.item.ModCreativeModeTabs;
 import net.jonathan.mccourse.item.ModItemProperties;
 import net.jonathan.mccourse.item.ModItems;
+import net.jonathan.mccourse.sound.ModSounds;
+import net.minecraft.core.Registry;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.ComposterBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -31,10 +36,12 @@ public class MCCourseMod {
 
         ModCreativeModeTabs.register(modEventBus);
 
-        ModEnchantments.register(modEventBus);
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEnchantments.register(modEventBus);
+        ModSounds.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 
@@ -43,46 +50,24 @@ public class MCCourseMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI.get(), 0.35f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI_SEEDS.get(), 0.20f);
 
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.SNAPDRAGON.getId(), ModBlocks.POTTED_SNAPDRAGON);
+
+        });
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
-
-
-
-
-
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
-
-            event.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE);
-
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
-
-            event.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
-
-            event.accept(ModBlocks.ALEXNDRITE_ORE);
-
-            event.accept(ModBlocks.NETHER_ALEXANDRITE_ORE);
-
-            event.accept(ModBlocks.RAW_SUPER_POWERFULL_BLOCK);
-
-            event.accept(ModBlocks.SUPER_POWERFULL_BLOCK);
-
-
-
-
-
-
-
-
         }
     }
 
@@ -102,8 +87,5 @@ public class MCCourseMod {
 
             });
         }
-
-
-
     }
 }

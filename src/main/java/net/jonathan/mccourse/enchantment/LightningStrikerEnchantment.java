@@ -1810,6 +1810,4422 @@ public class LightningStrikerEnchantment extends Enchantment {
 
 
             }
+
+            if(pLevel == 14) {
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.TNT_MINECART.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+                EntityType.END_CRYSTAL.spawn(level, null, (Player) null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+            }
         }
 
         super.doPostAttack(pAttacker, pTarget, pLevel);
@@ -1817,6 +6233,6 @@ public class LightningStrikerEnchantment extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 12;
+        return 14;
     }
 }

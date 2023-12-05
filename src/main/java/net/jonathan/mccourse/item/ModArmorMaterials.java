@@ -15,11 +15,11 @@ import java.util.EnumMap;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ALEXANDRITE("alexandrite", 40, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
-        p_266655_.put(ArmorItem.Type.BOOTS, 7);
-        p_266655_.put(ArmorItem.Type.LEGGINGS, 9);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 15);
-        p_266655_.put(ArmorItem.Type.HELMET, 8);
+    ALEXANDRITE("alexandrite", 50000, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 25);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 50);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 60);
+        p_266655_.put(ArmorItem.Type.HELMET, 30);
     }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 5.0F, 0.1F, () -> Ingredient.of(ModItems.ALEXANDRITE.get()));
 
     public static final StringRepresentable.EnumCodec<ArmorMaterials> CODEC = StringRepresentable.fromEnum(ArmorMaterials::values);

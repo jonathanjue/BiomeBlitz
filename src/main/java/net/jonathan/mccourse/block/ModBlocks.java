@@ -2,11 +2,14 @@ package net.jonathan.mccourse.block;
 
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.custom.AlexandriteLampBlock;
+import net.jonathan.mccourse.block.custom.GemEmpoweringStationBlock;
 import net.jonathan.mccourse.block.custom.KohlrabiCropBlock;
 import net.jonathan.mccourse.block.custom.SoundBlock;
 import net.jonathan.mccourse.item.ModItems;
+import net.jonathan.mccourse.sound.ModSounds;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -56,8 +59,16 @@ public class ModBlocks {
     public static final  RegistryObject<Block> ALEXANDRITE_TRAP_DOOR = registerBlock("alexandrite_trap_door",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK), BlockSetType.IRON));
 
+    public static final RegistryObject<Block> SNAPDRAGON = registerBlock("snapdragon",
+            () -> new FlowerBlock(() -> MobEffects.BLINDNESS, 60, BlockBehaviour.Properties.copy(Blocks.ALLIUM)));
+
+    public static final RegistryObject<Block> GEM_EMPOWERING_STATION = registerBlock("gem_empowering_station",
+            () -> new GemEmpoweringStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_SNAPDRAGON = BLOCKS.register("potted_snapdragon",
+            () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), SNAPDRAGON, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM)));
+
     public static final  RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
-            () -> new AlexandriteLampBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.GLASS)
+            () -> new AlexandriteLampBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(ModSounds.ALEXANDRITE_LAMP_SOUNDS)
                     .lightLevel(state -> state.getValue(AlexandriteLampBlock.CLICKED) ? 15 : 0)));
 
     public static final  RegistryObject<Block> KOHLRABI_CROP = BLOCKS.register("kohlrabi_crop",
