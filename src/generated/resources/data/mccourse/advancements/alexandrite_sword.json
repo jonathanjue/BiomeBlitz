@@ -1,0 +1,39 @@
+{
+  "parent": "mccourse:alexandrite_chestplate",
+  "criteria": {
+    "has_alexandrite_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:alexandrite_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Crafted From Alexandrite (The best material) And Forged by people"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mccourse:alexandrite_sword",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Sword Of Legends"
+    }
+  },
+  "requirements": [
+    [
+      "has_alexandrite_sword"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

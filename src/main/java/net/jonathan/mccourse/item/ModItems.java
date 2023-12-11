@@ -40,7 +40,7 @@ public class ModItems {
             public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
                     () -> new HoeItem(ModToolTiers.ALEXANDRITE, 10, -2.7f, new Item.Properties().durability(1000000000)));
             public static final RegistryObject<Item> ALEXANDRITE_PAXEL = ITEMS.register("alexandrite_paxel",
-                    () -> new PaxelItem(ModToolTiers.ALEXANDRITE, 25, -2.8f, new Item.Properties().durability(1000000000)));
+                    () -> new BestPaxelItem(ModToolTiers.ALEXANDRITE, 25, -2.8f, new Item.Properties().durability(1000000000)));
 
             public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
                     () -> new HammerItem(ModToolTiers.ALEXANDRITE, 15, -2.7f, new Item.Properties().durability(1000000000)));
@@ -74,6 +74,19 @@ public class ModItems {
 
 
 
+    public static final RegistryObject<Item> RADIATION_STAFF = ITEMS.register("radiation_staff",
+            () -> new Item(new Item.Properties().durability(3245)));
+
+
+    public static final RegistryObject<Item> ALEXANDRITE_STAFF = ITEMS.register("alexandrite_staff",
+            () -> new Item(new Item.Properties().durability(5000)));
+
+    public static final RegistryObject<Item> ALEXANDRITE_BOW = ITEMS.register("alexandrite_bow",
+            () -> new BowItem(new Item.Properties().durability(250)));
+
+
+    public static final RegistryObject<Item> ALEXANDRITE_SHIELD = ITEMS.register("alexandrite_shield",
+            () -> new ShieldItem(new Item.Properties().durability(5000)));
 
 
 

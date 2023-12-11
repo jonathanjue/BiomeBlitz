@@ -20,15 +20,42 @@
   "item.mccourse.alexandrite_horse_armor": "Alexandrite Horse Armor",
   "item.mccourse.data_tablet": "Data Tablet",
   "item.mccourse.kohlrabi_seeds": "Kohlrabi Seeds",
+  "item.mccourse.radiation_staff": "Radiation Staff",
 
-  "sounds.mccourse.metal_detector_found_ore": "Metal Detector Found an Ore",
-
+  "item.mccourse.alexandrite_bow": "Alexandrite Bow",
+  "item.mccourse.alexandrite_shield": "Alexandrite Shield",
 
   "item.mccourse.bar_brawl_record": "Bar Brawl Music Disc",
   "item.mccourse.bar_brawl_record.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
-  "block.mccourse.gem_empowering_station.desc": "Gem Empowering Station",
+
+  "item.minecraft.potion.effect.damage_resistance_potion": "Resistance Pot",
+  "item.minecraft.splash_potion.effect.damage_resistance_potion": "Resistance Splash Pot",
+  "item.minecraft.lingering_potion.effect.damage_resistance_potion": "Damage Resistance Lingering Potion",
+
+
+  "item.minecraft.potion.effect.damage_potion": "More Da mage Pot",
+  "item.minecraft.splash_potion.effect.damage_potion": "More Damage Splash Pot",
+  "item.minecraft.lingering_potion.effect.damage_potion": "More Damage Lingering Potion",
+
+  "entity.minecraft.villager.mccourse.soundmaster": "Soundmaster",
+
+
+  "item.minecraft.potion.effect.speed_potion": "Speed Pot",
+  "item.minecraft.splash_potion.effect.speed_potion": "Speed Splash Pot",
+  "item.minecraft.lingering_potion.effect.speed_potion": "Speed Lingering Potion",
+
+  "item.minecraft.potion.effect.saturation_potion": "Hunger Pot",
+  "item.minecraft.splash_potion.effect.saturation_potion": "Hunger Splash Pot",
+  "item.minecraft.lingering_potion.effect.saturation_potion": "Hunger Lingering Potion",
+
+  "item.minecraft.potion.effect.health_boost_potion": "Health Boost Potion Pot",
+  "item.minecraft.splash_potion.effect.health_boost_potion": "Health Boost Potion Splash Pot",
+  "item.minecraft.lingering_potion.effect.health_boost_potion": "Health Boost Potion Lingering Potion",
 
   "block.mccourse.alexandrite_block": "Block of Alexandrite",
   "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -50,13 +77,27 @@
   "block.mccourse.alexandrite_lamp": "Alexandrite Lamp",
   "block.mccourse.snapdragon": "Snapdragon",
 
+  "block.mccourse.gem_empowering_station": "Gem Empowering Station",
+
+
   "block.mccourse.sound_block": "Sound Block",
 
   "creativetab.course_tab": "Course Tab",
 
   "enchantment.mccourse.lightning_striker": "Lightning Striker",
 
+  "sounds.mccourse.metal_detector_found_ore": "Metal Detector Found an Ore",
+
   "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
+
+  "effect.mccourse.slimey": "Slimey",
+
+  "painting.mccourse.world.title": "World",
+  "painting.mccourse.world.author": "NanoAttack",
+  "painting.mccourse.shrimp.title": "Shrimp",
+  "painting.mccourse.shrimp.author": "NanoAttack",
+  "painting.mccourse.saw_them.title": "Saw Them",
+  "painting.mccourse.saw_them.author": "NanoAttack",
 
   "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
   "tooltip.mccourse.metal_detector.tooltip": "Press §eSHIFT§r for more Information",

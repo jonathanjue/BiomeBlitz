@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_metal_detector": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:data_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mccourse:bar_brawl_record"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_metal_detector",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mccourse:bar_brawl_record"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "B": {
+      "item": "mccourse:alexandrite_hoe"
+    },
+    "C": {
+      "item": "mccourse:alexandrite_pickaxe"
+    },
+    "S": {
+      "item": "mccourse:alexandrite_sword"
+    },
+    "V": {
+      "item": "mccourse:alexandrite_shovel"
+    },
+    "X": {
+      "item": "mccourse:alexandrite_axe"
+    }
+  },
+  "pattern": [
+    "SXA",
+    "V#C",
+    "A#B"
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_paxel"
+  },
+  "show_notification": true
+}

@@ -7,7 +7,6 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -41,11 +40,10 @@ public class ModItemModelProvider extends ItemModelProvider {
          simpleItem(ModItems.ALEXANDRITE_LEGGING);
          simpleItem(ModItems.ALEXANDRITE_BOOTS);
 
-         simpleItem(ModItems.BAR_BRAWL_RECORD);
-
         simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
         simpleItem(ModItems.KOHLRABI_SEEDS);
-        //simpleItem(ModItems.DATA_TABLET);
+        simpleItem(ModItems.BAR_BRAWL_RECORD);
+        // simpleItem(ModItems.DATA_TABLET);
 
         buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
         fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);
@@ -53,6 +51,13 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
         simpleBlockItem(ModBlocks.SNAPDRAGON);
+
+        complexBlock(ModBlocks.GEM_EMPOWERING_STATION.get());
+    }
+
+    private ItemModelBuilder complexBlock(Block block) {
+        return withExistingParent(ForgeRegistries.BLOCKS.getKey(block).getPath(), new ResourceLocation(MCCourseMod.MOD_ID,
+                "block/" + ForgeRegistries.BLOCKS.getKey(block).getPath()));
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

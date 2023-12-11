@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "B#B",
+    "BBB"
+  ],
+  "result": {
+    "item": "minecraft:wolf_spawn_egg"
+  },
+  "show_notification": true
+}

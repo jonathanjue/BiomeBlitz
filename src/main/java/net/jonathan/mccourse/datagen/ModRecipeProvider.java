@@ -202,13 +202,34 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         of(ModItems.DATA_TABLET.get()).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.WOLF_SPAWN_EGG)
+                .pattern("BBB")
+                .pattern("B#B")
+                .pattern("BBB")
+                .define('B', Items.BONE)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.DATA_TABLET.get()).build()))
+                .save(pWriter);
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BAR_BRAWL_RECORD.get())
                 .pattern(" # ")
                 .pattern("#A#")
                 .pattern(" # ")
                 .define('A', ModItems.ALEXANDRITE.get())
-                .define('M', ModItems.METAL_DETECTOR.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.DATA_TABLET.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GEM_EMPOWERING_STATION.get())
+                .pattern("AAA")
+                .pattern("B#B")
+                .pattern("CCC")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Blocks.BLACKSTONE)
+                .define('C', Blocks.CALCITE)
                 .define('#', Items.TOTEM_OF_UNDYING)
                 .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.DATA_TABLET.get()).build()))

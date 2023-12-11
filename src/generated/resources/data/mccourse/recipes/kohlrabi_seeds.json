@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "K": {
+      "item": "mccourse:kohlrabi"
+    }
+  },
+  "pattern": [
+    "   ",
+    " K ",
+    "   "
+  ],
+  "result": {
+    "item": "mccourse:kohlrabi_seeds"
+  },
+  "show_notification": true
+}

@@ -19,6 +19,8 @@ public class SlowingSwordItem extends SwordItem {
     public boolean onLeftClickEntity(ItemStack stack, Player player, Entity entity) {
         if (entity instanceof LivingEntity livingEntity) {
             livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 9999999, 6), player);
+            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 999999 , 10));
+            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 999999 , 2));
 //            livingEntity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 9999999, 2), player);
 //            livingEntity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 9999999, 255), player);
 //            livingEntity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 9999999, 4), player);

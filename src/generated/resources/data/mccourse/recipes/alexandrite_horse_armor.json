@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite"
+    }
+  },
+  "pattern": [
+    " AA",
+    "AAA",
+    "   "
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_horse_armor"
+  },
+  "show_notification": true
+}

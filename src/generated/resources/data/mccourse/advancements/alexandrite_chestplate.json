@@ -1,0 +1,54 @@
+{
+  "parent": "mccourse:mccourse",
+  "criteria": {
+    "has_armor_set": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:alexandrite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "mccourse:alexandrite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "mccourse:alexandrite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "mccourse:alexandrite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Gives Jumpboost"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mccourse:alexandrite_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Netherite but better"
+    }
+  },
+  "requirements": [
+    [
+      "has_armor_set"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

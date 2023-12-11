@@ -10,11 +10,16 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+
+
 public class ModCreativeModeTabs {
+
+
+
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MCCourseMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> COURSE_TAB = CREATIVE_MODE_TABS.register("course_tab",
+    public static final RegistryObject<CreativeModeTab> MAIN_TAB = CREATIVE_MODE_TABS.register("main_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALEXANDRITE.get()))
                     .title(Component.translatable("creativetab.course_tab"))
                     .displayItems((displayParameters, output) -> {
@@ -46,7 +51,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
                         output.accept(ModBlocks.ALEXANDRITE_WALL.get());
 
+                        output.accept(ModBlocks.GEM_EMPOWERING_STATION.get());
 
+                        output.accept(ModItems.RADIATION_STAFF.get());
+
+                        output.accept(ModItems.ALEXANDRITE_STAFF.get());
+
+                        output.accept(ModItems.ALEXANDRITE_BOW.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModItems.ALEXANDRITE_PICKAXE.get());
@@ -57,6 +68,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALEXANDRITE_HOE.get());
                         output.accept(ModItems.ALEXANDRITE_PAXEL.get());
                         output.accept(ModItems.ALEXANDRITE_HAMMER.get());
+
+                        output.accept(ModItems.ALEXANDRITE_SHIELD.get());
 
 
                         output.accept(ModItems.ALEXANDRITE_HELMET.get());
