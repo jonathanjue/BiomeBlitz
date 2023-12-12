@@ -29,22 +29,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.PEAT_BRICK.get());
 
+                        output.accept(ModItems.SOAP_WATER_BUCKET.get());
+
                         output.accept(ModItems.BAR_BRAWL_RECORD.get());
 
 
                         output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
-                        output.accept(ModBlocks.SUPER_POWERFULL_BLOCK.get());
-                        output.accept(ModBlocks.ALEXNDRITE_ORE.get());
+                        output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
                         output.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
-                        output.accept(ModBlocks.RAW_SUPER_POWERFULL_BLOCK.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());
                         output.accept(ModBlocks.ALEXANDRITE_SLAB.get());
                         output.accept(ModBlocks.ALEXANDRITE_STAIRS.get());
                         output.accept(ModBlocks.ALEXANDRITE_DOOR.get());
-                        output.accept(ModBlocks.ALEXANDRITE_TRAP_DOOR.get());
+                        output.accept(ModBlocks.ALEXANDRITE_TRAPDOOR.get());
                         output.accept(ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get());
                         output.accept(ModBlocks.ALEXANDRITE_BUTTON.get());
                         output.accept(ModBlocks.ALEXANDRITE_FENCE.get());
@@ -99,3 +99,4 @@ public class ModCreativeModeTabs {
             }
 
 }
+

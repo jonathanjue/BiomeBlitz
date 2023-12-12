@@ -60,15 +60,24 @@ public class ModAdvancementProvider implements ForgeAdvancementProvider.Advancem
                 .save(saver, new ResourceLocation(MCCourseMod.MOD_ID, "alexandrite_sword"), existingFileHelper);
 
 
-
-        Advancement Alexandrite_Wall = Advancement.Builder.advancement()
-                .display(new DisplayInfo(new ItemStack(ModBlocks.ALEXANDRITE_WALL.get()),
-                        Component.literal("Home Defense"), Component.literal("Create a Wall"),
-                        null, FrameType.TASK,
+        Advancement HAMMER = Advancement.Builder.advancement()
+                .display(new DisplayInfo(new ItemStack(ModItems.ALEXANDRITE_HAMMER.get()),
+                        Component.literal("Multi Breaker"), Component.literal("Destorys Blocks in a 3 by 3 area"),
+                        null, FrameType.GOAL,
                         true, true, false))
-                .parent(rootAdvancement)
-                .addCriterion("has_armor_set", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.ALEXANDRITE_WALL.get(), ModItems.ALEXANDRITE_HELMET.get(), ModItems.ALEXANDRITE_LEGGING.get(), ModItems.ALEXANDRITE_BOOTS.get()))
-                .save(saver, new ResourceLocation(MCCourseMod.MOD_ID, "alexandrite_wall"), existingFileHelper);
+                .parent(Alexandrite_sword)
+                .addCriterion("has_alexandrite_hammer", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ALEXANDRITE_HAMMER.get()))
+                .save(saver, new ResourceLocation(MCCourseMod.MOD_ID, "alexandrite_hammer"), existingFileHelper);
+
+
+        Advancement Multi_tool = Advancement.Builder.advancement()
+                .display(new DisplayInfo(new ItemStack(ModItems.ALEXANDRITE_PAXEL.get()),
+                        Component.literal("Multi Tool?"), Component.literal("Craft A Paxel"),
+                        null, FrameType.CHALLENGE,
+                        true, true, false))
+                .parent(HAMMER)
+                .addCriterion("has_alexandrite_paxel", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ALEXANDRITE_PAXEL.get()))
+                .save(saver, new ResourceLocation(MCCourseMod.MOD_ID, "alexandrite_paxel"), existingFileHelper);
 
 
 

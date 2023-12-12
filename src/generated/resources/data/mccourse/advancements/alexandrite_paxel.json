@@ -1,0 +1,39 @@
+{
+  "parent": "mccourse:alexandrite_hammer",
+  "criteria": {
+    "has_alexandrite_paxel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:alexandrite_paxel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft A Paxel"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "mccourse:alexandrite_paxel",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Multi Tool?"
+    }
+  },
+  "requirements": [
+    [
+      "has_alexandrite_paxel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

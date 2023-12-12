@@ -1,0 +1,39 @@
+{
+  "parent": "mccourse:alexandrite_sword",
+  "criteria": {
+    "has_alexandrite_hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:alexandrite_hammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Destorys Blocks in a 3 by 3 area"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "mccourse:alexandrite_hammer",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Multi Breaker"
+    }
+  },
+  "requirements": [
+    [
+      "has_alexandrite_hammer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

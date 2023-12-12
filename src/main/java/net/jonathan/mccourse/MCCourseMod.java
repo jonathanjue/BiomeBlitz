@@ -2,18 +2,24 @@ package net.jonathan.mccourse;
 
 import com.mojang.logging.LogUtils;
 import net.jonathan.mccourse.block.ModBlocks;
-import net.jonathan.mccourse.datagen.ModPoiTypeTagsProvider;
+import net.jonathan.mccourse.item.ModItems;
+import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.effect.ModEffects;
 import net.jonathan.mccourse.enchantment.ModEnchantments;
+import net.jonathan.mccourse.fluid.ModFluidTypes;
+import net.jonathan.mccourse.fluid.ModFluids;
 import net.jonathan.mccourse.item.ModCreativeModeTabs;
 import net.jonathan.mccourse.item.ModItemProperties;
 import net.jonathan.mccourse.item.ModItems;
 import net.jonathan.mccourse.loot.ModLootModifiers;
 import net.jonathan.mccourse.painting.ModPaintings;
+import net.jonathan.mccourse.particle.ModParticles;
 import net.jonathan.mccourse.potion.BetterBrewingRecipe;
 import net.jonathan.mccourse.potion.ModPotions;
 import net.jonathan.mccourse.sound.ModSounds;
 import net.jonathan.mccourse.villager.ModVillagers;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.Registry;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Items;
@@ -58,7 +64,10 @@ public class MCCourseMod {
         ModPotions.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+        ModParticles.register(modEventBus);
 
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -66,26 +75,26 @@ public class MCCourseMod {
         modEventBus.addListener(this::addCreative);
     }
 
-       private void commonSetup(final FMLCommonSetupEvent event) {
-            event.enqueueWork(() -> {
-                ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI.get(), 0.35f);
-                ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI_SEEDS.get(), 0.20f);
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI.get(), 0.35f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI_SEEDS.get(), 0.20f);
 
-                ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.SNAPDRAGON.getId(), ModBlocks.POTTED_SNAPDRAGON);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.SNAPDRAGON.getId(), ModBlocks.POTTED_SNAPDRAGON);
 
-                BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION.get()));
 
-                BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.FIRE_RESISTANCE, Items.AMETHYST_SHARD, ModPotions.DAMAGE_RESISTANCE_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.FIRE_RESISTANCE, Items.AMETHYST_SHARD, ModPotions.DAMAGE_RESISTANCE_POTION.get()));
 
-                BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.INVISIBILITY, Items.NETHERITE_INGOT, ModPotions.DAMAGE_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.INVISIBILITY, Items.NETHERITE_INGOT, ModPotions.DAMAGE_POTION.get()));
 
-                BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.SWIFTNESS, Items.TOTEM_OF_UNDYING ,ModPotions.SPEED_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.SWIFTNESS, Items.TOTEM_OF_UNDYING ,ModPotions.SPEED_POTION.get()));
 
-                BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD, Items.COOKED_BEEF, ModPotions.SATURATION_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD, Items.COOKED_BEEF, ModPotions.SATURATION_POTION.get()));
 
-                BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.HEALING, Items.ENCHANTED_GOLDEN_APPLE, ModPotions.HEALTH_BOOST_POTION.get()));
-            });
-        }
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.HEALING, Items.ENCHANTED_GOLDEN_APPLE, ModPotions.HEALTH_BOOST_POTION.get()));
+        });
+    }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -112,6 +121,9 @@ public class MCCourseMod {
         public static void onClientSetup(FMLClientSetupEvent event) {
             event.enqueueWork(() -> {
                 ModItemProperties.addCustomItemProperties();
+
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_SOAP_WATER.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_SOAP_WATER.get(), RenderType.translucent());
 
             });
         }

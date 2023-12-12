@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mccourse:alexandrite_trap_door"
+          "name": "mccourse:alexandrite_trapdoor"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "mccourse:blocks/alexandrite_trap_door"
+  "random_sequence": "mccourse:blocks/alexandrite_trapdoor"
 }
