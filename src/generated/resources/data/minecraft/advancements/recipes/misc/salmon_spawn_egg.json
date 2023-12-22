@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_metal_detector": {
+    "has_alexandrite": {
       "conditions": {
         "items": [
           {
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mccourse:alexandrite_shovel"
+        "recipe": "minecraft:salmon_spawn_egg"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_metal_detector",
+      "has_alexandrite",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mccourse:alexandrite_shovel"
+      "minecraft:salmon_spawn_egg"
     ]
   },
   "sends_telemetry_event": false

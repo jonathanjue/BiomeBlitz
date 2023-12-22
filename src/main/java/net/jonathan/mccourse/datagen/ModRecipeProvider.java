@@ -2,6 +2,7 @@ package net.jonathan.mccourse.datagen;
 
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.ModBlocks;
+import net.jonathan.mccourse.datagen.custom.GemEmpoweringRecipeBuilder;
 import net.jonathan.mccourse.item.ModItems;
 import net.jonathan.mccourse.item.custom.ModArmorItem;
 import net.jonathan.mccourse.util.ModTags;
@@ -68,6 +69,85 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModBlocks.NETHER_ALEXANDRITE_ORE.get()).build()))
                 .save(pWriter);
+
+
+//
+//    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.COW_SPAWN_EGG)
+//                .pattern(" B ")
+//                .pattern("BBB")
+//                .pattern(" B ")
+//                .define('B', Items.COOKED_BEEF)
+//            .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+//                    of(ModItems.KOHLRABI_SEEDS.get()).build()))
+//            .save(pWriter);
+//
+//    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.PIG_SPAWN_EGG)
+//                .pattern(" P ")
+//                .pattern("PPP")
+//                .pattern(" P ")
+//                .define('P', Items.COOKED_PORKCHOP)
+//            .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+//                    of(ModItems.KOHLRABI_SEEDS.get()).build()))
+//            .save(pWriter);
+//
+//    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.RABBIT_SPAWN_EGG)
+//                .pattern(" R ")
+//                .pattern("RRR")
+//                .pattern(" R ")
+//                .define('R', Items.COOKED_RABBIT)
+//            .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+//                    of(ModItems.KOHLRABI_SEEDS.get()).build()))
+//            .save(pWriter);
+//
+//
+//    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.SHEEP_SPAWN_EGG)
+//                .pattern(" M ")
+//                .pattern("MMM")
+//                .pattern(" M ")
+//                .define('M', Items.COOKED_MUTTON)
+//            .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+//                    of(ModItems.KOHLRABI_SEEDS.get()).build()))
+//            .save(pWriter);
+//
+//    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHICKEN_SPAWN_EGG)
+//                .pattern(" C ")
+//                .pattern("CCC")
+//                .pattern(" C ")
+//                .define('C', Items.COOKED_CHICKEN)
+//            .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+//                    of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+//            .save(pWriter);
+//
+//    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.COD_SPAWN_EGG)
+//                .pattern(" C ")
+//                .pattern("CCC")
+//                .pattern(" C ")
+//                .define('C', Items.COOKED_COD)
+//            .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+//                    of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+//            .save(pWriter);
+//
+//    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.SALMON_SPAWN_EGG)
+//                .pattern(" C ")
+//                .pattern("CCC")
+//                .pattern(" C ")
+//                .define('C', Items.COOKED_SALMON)
+//            .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+//                    of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+//            .save(pWriter);
+//
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_BOW.get())
+                .pattern(" SA")
+                .pattern("S A")
+                .pattern(" SA")
+                .define('S', Items.TOTEM_OF_UNDYING)
+                .define('A', ModItems.ALEXANDRITE.get())
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_BOW.get()).build()))
+                .save(pWriter);
+
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.END_STONE_ALEXANDRITE_ORE.get())
@@ -288,27 +368,154 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('D', Items.DIAMOND_BLOCK)
                 .define('#', Items.TOTEM_OF_UNDYING)
                 .define('O', Items.DRAGON_HEAD)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+
+// Radiation Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_STAFF.get())
+                .pattern("OAO")
+                .pattern("N#N")
+                .pattern(" # ")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .define('O', Items.DRAGON_HEAD)
+                .define('N', Items.NETHERRACK)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+        // Alexandrite Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_STAFF.get())
+                .pattern(" A ")
+                .pattern("B#B")
+                .pattern("B#B")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', ModBlocks.ALEXANDRITE_BLOCK.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+        //Soap water bucket
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SOAP_WATER_BUCKET.get())
+                .pattern(" A ")
+                .pattern("AWA")
+                .pattern(" A ")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('W', Items.WATER_BUCKET)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+        // Peat Brick
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PEAT_BRICK.get())
+                .pattern("CCC")
+                .pattern("CAC")
+                .pattern("CCC")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('C', Items.COAL_BLOCK)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+        //Shield
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SHIELD.get())
+                .pattern("AAA")
+                .pattern("A#A")
+                .pattern("A#A")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+        //golden apple
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.GOLDEN_APPLE)
+                .pattern(" G ")
+                .pattern("GAG")
+                .pattern(" G ")
+                .define('A', Items.APPLE)
+                .define('G', Items.GOLD_INGOT)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+        //enchanted golden apple
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.ENCHANTED_GOLDEN_APPLE)
+                .pattern("gGg")
+                .pattern("G#G")
+                .pattern("gGg")
+                .define('G', Items.GOLD_BLOCK)
+                .define('g', Items.GOLDEN_APPLE)
+                .define('#', Items.TOTEM_OF_UNDYING)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.COW_SPAWN_EGG)
+                .pattern(" B ")
+                .pattern("BBB")
+                .pattern(" B ")
+                .define('B', Items.BEEF)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.PIG_SPAWN_EGG)
+                .pattern(" P ")
+                .pattern("PPP")
+                .pattern(" P ")
+                .define('P', Items.PORKCHOP)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.RABBIT_SPAWN_EGG)
+                .pattern(" R ")
+                .pattern("RRR")
+                .pattern(" R ")
+                .define('R', Items.RABBIT)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.SHEEP_SPAWN_EGG)
+                .pattern(" M ")
+                .pattern("MMM")
+                .pattern(" M ")
+                .define('M', Items.MUTTON)
+                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.KOHLRABI_SEEDS.get()).build()))
+                .save(pWriter);
 
-
-
-        //unlocked By Then saving it
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHICKEN_SPAWN_EGG)
+                .pattern(" C ")
+                .pattern("CCC")
+                .pattern(" C ")
+                .define('C', Items.CHICKEN)
                 .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.COD_SPAWN_EGG)
+                .pattern(" C ")
+                .pattern("CCC")
+                .pattern(" C ")
+                .define('C', Items.COD)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.SALMON_SPAWN_EGG)
+                .pattern(" S ")
+                .pattern("SSS")
+                .pattern(" S ")
+                .define('S', Items.SALMON)
+
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
                 .save(pWriter);
 
 
         // result for reversecrafting
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
-                .requires(ModBlocks.ALEXANDRITE_BLOCK.get())
-
-
-                //unlocked By Then saving it
-                .unlockedBy("has_alexandrite_block", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.ALEXANDRITE_BLOCK.get()).build()))
-                .save(pWriter);
-
+                .requires(ModBlocks.ALEXANDRITE_BLOCK.get());
 
 
 
@@ -319,6 +526,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 1000, 50, "alexandrite");
         oreBlasting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 1500, 25, "alexandrite");
 
+
+        new GemEmpoweringRecipeBuilder(ModItems.RAW_ALEXANDRITE.get(), ModItems.ALEXANDRITE.get(), 3)
+                .unlockedBy("has_raw_alexandrite", has(ModItems.RAW_ALEXANDRITE.get())).save(pWriter);
+
+        new GemEmpoweringRecipeBuilder(Items.COAL, Items.DIAMOND, 7)
+                .unlockedBy("has_diamond", has(Items.COAL)).save(pWriter);
+
+
+
+        new GemEmpoweringRecipeBuilder(ModItems.PEAT_BRICK.get(), ModItems.METAL_DETECTOR.get(), 1)
+                .unlockedBy("has_raw_alexandrite", has(ModItems.PEAT_BRICK.get())).save(pWriter);
+
+        new GemEmpoweringRecipeBuilder(Items.ENCHANTED_GOLDEN_APPLE, ModItems.KOHLRABI.get(), 1)
+                .unlockedBy("has_diamond", has(Items.ENCHANTED_GOLDEN_APPLE)).save(pWriter);
+
+
+        new GemEmpoweringRecipeBuilder(Items.MUSIC_DISC_PIGSTEP, ModItems.BAR_BRAWL_RECORD.get(), 1)
+                .unlockedBy("has_diamond", has(Items.MUSIC_DISC_PIGSTEP)).save(pWriter);
 
     }
 

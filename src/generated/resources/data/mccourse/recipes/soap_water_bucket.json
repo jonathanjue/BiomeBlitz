@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    " A ",
+    "AWA",
+    " A "
+  ],
+  "result": {
+    "item": "mccourse:soap_water_bucket"
+  },
+  "show_notification": true
+}

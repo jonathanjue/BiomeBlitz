@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:rabbit"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RRR",
+    " R "
+  ],
+  "result": {
+    "item": "minecraft:rabbit_spawn_egg"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "O": {
+      "item": "minecraft:dragon_head"
+    }
+  },
+  "pattern": [
+    "OAO",
+    "N#N",
+    " # "
+  ],
+  "result": {
+    "item": "mccourse:radiation_staff"
+  },
+  "show_notification": true
+}

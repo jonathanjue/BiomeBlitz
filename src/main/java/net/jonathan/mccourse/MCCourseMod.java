@@ -2,6 +2,7 @@ package net.jonathan.mccourse;
 
 import com.mojang.logging.LogUtils;
 import net.jonathan.mccourse.block.ModBlocks;
+import net.jonathan.mccourse.block.entity.ModBlockEntities;
 import net.jonathan.mccourse.item.ModItems;
 import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.effect.ModEffects;
@@ -16,8 +17,12 @@ import net.jonathan.mccourse.painting.ModPaintings;
 import net.jonathan.mccourse.particle.ModParticles;
 import net.jonathan.mccourse.potion.BetterBrewingRecipe;
 import net.jonathan.mccourse.potion.ModPotions;
+import net.jonathan.mccourse.recipe.ModRecipes;
+import net.jonathan.mccourse.screen.GemEmpoweringStationScreen;
+import net.jonathan.mccourse.screen.ModMenuTypes;
 import net.jonathan.mccourse.sound.ModSounds;
 import net.jonathan.mccourse.villager.ModVillagers;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.Registry;
@@ -69,6 +74,11 @@ public class MCCourseMod {
         ModFluidTypes.register(modEventBus);
         ModFluids.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -83,14 +93,22 @@ public class MCCourseMod {
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.SNAPDRAGON.getId(), ModBlocks.POTTED_SNAPDRAGON);
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION.get()));
+
+
+
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.FIRE_RESISTANCE, Items.AMETHYST_SHARD, ModPotions.DAMAGE_RESISTANCE_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.LONG_FIRE_RESISTANCE, Items.AMETHYST_SHARD, ModPotions.DAMAGE_RESISTANCE_POTION.get()));
 
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.LONG_INVISIBILITY, Items.NETHERITE_INGOT, ModPotions.DAMAGE_POTION.get()));
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.INVISIBILITY, Items.NETHERITE_INGOT, ModPotions.DAMAGE_POTION.get()));
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.SWIFTNESS, Items.TOTEM_OF_UNDYING ,ModPotions.SPEED_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.STRONG_SWIFTNESS, Items.TOTEM_OF_UNDYING ,ModPotions.SPEED_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.LONG_SWIFTNESS, Items.TOTEM_OF_UNDYING ,ModPotions.SPEED_POTION.get()));
 
-            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD, Items.COOKED_BEEF, ModPotions.SATURATION_POTION.get()));
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.REGENERATION, Items.COOKED_BEEF, ModPotions.SATURATION_POTION.get()));
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.HEALING, Items.ENCHANTED_GOLDEN_APPLE, ModPotions.HEALTH_BOOST_POTION.get()));
         });
@@ -125,6 +143,7 @@ public class MCCourseMod {
                 ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_SOAP_WATER.get(), RenderType.translucent());
                 ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_SOAP_WATER.get(), RenderType.translucent());
 
+                MenuScreens.register(ModMenuTypes.GEM_EMPOWERING_MENU.get(), GemEmpoweringStationScreen::new);
             });
         }
     }

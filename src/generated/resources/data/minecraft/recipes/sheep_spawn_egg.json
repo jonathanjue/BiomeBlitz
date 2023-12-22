@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "minecraft:mutton"
+    }
+  },
+  "pattern": [
+    " M ",
+    "MMM",
+    " M "
+  ],
+  "result": {
+    "item": "minecraft:sheep_spawn_egg"
+  },
+  "show_notification": true
+}

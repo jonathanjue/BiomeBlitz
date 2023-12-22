@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_alexandrite_block": {
+    "has_alexandrite": {
       "conditions": {
         "items": [
           {
             "items": [
-              "mccourse:alexandrite_block"
+              "mccourse:alexandrite_shovel"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mccourse:alexandrite"
+        "recipe": "minecraft:cod_spawn_egg"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_alexandrite_block",
+      "has_alexandrite",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mccourse:alexandrite"
+      "minecraft:cod_spawn_egg"
     ]
   },
   "sends_telemetry_event": false

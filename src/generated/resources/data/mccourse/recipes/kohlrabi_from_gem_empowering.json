@@ -1,0 +1,11 @@
+{
+  "type": "mccourse:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  ],
+  "output": {
+    "item": "mccourse:kohlrabi"
+  }
+}

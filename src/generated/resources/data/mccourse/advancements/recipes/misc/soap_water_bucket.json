@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "mccourse:alexandrite_shovel"
+              "mccourse:kohlrabi_seeds"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mccourse:alexandrite_shovel"
+        "recipe": "mccourse:soap_water_bucket"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "mccourse:alexandrite_shovel"
+      "mccourse:soap_water_bucket"
     ]
   },
   "sends_telemetry_event": false

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_metal_detector": {
+    "has_alexandrite": {
       "conditions": {
         "items": [
           {
             "items": [
-              "mccourse:alexandrite_shovel"
+              "mccourse:alexandrite_bow"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mccourse:alexandrite_shovel"
+        "recipe": "mccourse:alexandrite_bow"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_metal_detector",
+      "has_alexandrite",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mccourse:alexandrite_shovel"
+      "mccourse:alexandrite_bow"
     ]
   },
   "sends_telemetry_event": false

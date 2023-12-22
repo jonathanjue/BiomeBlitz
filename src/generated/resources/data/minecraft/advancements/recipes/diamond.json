@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_metal_detector": {
+    "has_diamond": {
       "conditions": {
         "items": [
           {
             "items": [
-              "mccourse:alexandrite_shovel"
+              "minecraft:coal"
             ]
           }
         ]
@@ -15,21 +15,21 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mccourse:alexandrite_shovel"
+        "recipe": "minecraft:diamond"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_metal_detector",
+      "has_diamond",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mccourse:alexandrite_shovel"
+      "minecraft:diamond"
     ]
   },
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }
