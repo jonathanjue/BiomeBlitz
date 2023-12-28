@@ -1,0 +1,12 @@
+{
+  "type": "mccourse:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "output": {
+    "count": 64,
+    "item": "minecraft:tnt"
+  }
+}

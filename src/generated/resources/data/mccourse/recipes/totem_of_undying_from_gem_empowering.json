@@ -1,0 +1,11 @@
+{
+  "type": "mccourse:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald_block"
+    }
+  ],
+  "output": {
+    "item": "minecraft:totem_of_undying"
+  }
+}

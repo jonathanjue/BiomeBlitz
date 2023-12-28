@@ -5,6 +5,7 @@ import net.jonathan.mccourse.item.ModItems;
 import net.jonathan.mccourse.loot.AddItemModifier;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
@@ -45,70 +46,8 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/village_jungle")).build() },
                 ModItems.ALEXANDRITE_SHIELD.get()));
 
-        add("alexandrite_bow_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_BOW.get()));
-
-        add("alexandrite_shield_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_SHIELD.get()));
-
-        add("alexandrite_hammer_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_HAMMER.get()));
 
 
-
-
-
-        add("alexandrite_helmet_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_HELMET.get()));
-
-        add("alexandrite_chestplate_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_CHESTPLATE.get()));
-        add("alexandrite_legging_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_LEGGING.get()));
-        add("alexandrite_boots_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_BOOTS.get()));
-
-
-        add("alexandrite_sword_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_SWORD.get()));
-
-        add("alexandrite_axe_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_AXE.get()));
-
-        add("alexandrite_pickaxe_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_PICKAXE.get()));
-
-        add("alexandrite_shovel_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_SHOVEL.get()));
-
-        add("alexandrite_horse_armor_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_HORSE_ARMOR.get()));
-
-        add("alexandrite_hoe_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE_HOE.get()));
-
-
-
-        add("alexandrite_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build() },
-                ModItems.ALEXANDRITE.get()));
-
-        add("alexandrite_from_shipwreck", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck")).build() },
-                ModItems.ALEXANDRITE.get()));
 
 
 

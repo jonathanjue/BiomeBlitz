@@ -1,0 +1,12 @@
+{
+  "type": "mccourse:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_planks"
+    }
+  ],
+  "output": {
+    "count": 64,
+    "item": "minecraft:emerald_block"
+  }
+}

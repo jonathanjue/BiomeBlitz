@@ -2,9 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:totem_of_undying"
-    },
     "A": {
       "item": "mccourse:alexandrite"
     },
@@ -16,9 +13,9 @@
     }
   },
   "pattern": [
-    "AAA",
-    "B#B",
-    "CCC"
+    "CCC",
+    "CAC",
+    "BBB"
   ],
   "result": {
     "item": "mccourse:gem_empowering_station"

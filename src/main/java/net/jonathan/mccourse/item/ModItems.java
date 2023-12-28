@@ -87,7 +87,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> ALEXANDRITE_SHIELD = ITEMS.register("alexandrite_shield",
-            () -> new ShieldItem(new Item.Properties().durability(5000)));
+            () -> new ShieldItem(new Item.Properties().durability(50000)));
 
 
     public static final RegistryObject<Item> SOAP_WATER_BUCKET = ITEMS.register("soap_water_bucket",

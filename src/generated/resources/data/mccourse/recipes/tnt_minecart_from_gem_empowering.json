@@ -1,0 +1,12 @@
+{
+  "type": "mccourse:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
+    }
+  ],
+  "output": {
+    "count": 64,
+    "item": "minecraft:tnt_minecart"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "L": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "LAL",
+    "LLL"
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_lamp"
+  },
+  "show_notification": true
+}

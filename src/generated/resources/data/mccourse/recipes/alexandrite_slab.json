@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "   "
+  ],
+  "result": {
+    "item": "mccourse:alexandrite_slab"
+  },
+  "show_notification": true
+}

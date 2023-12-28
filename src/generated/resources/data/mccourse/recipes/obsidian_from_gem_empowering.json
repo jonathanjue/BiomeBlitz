@@ -1,0 +1,12 @@
+{
+  "type": "mccourse:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_log"
+    }
+  ],
+  "output": {
+    "count": 64,
+    "item": "minecraft:obsidian"
+  }
+}

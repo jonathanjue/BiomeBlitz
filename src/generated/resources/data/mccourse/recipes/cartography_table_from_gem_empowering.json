@@ -1,0 +1,11 @@
+{
+  "type": "mccourse:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:map"
+    }
+  ],
+  "output": {
+    "item": "minecraft:cartography_table"
+  }
+}
