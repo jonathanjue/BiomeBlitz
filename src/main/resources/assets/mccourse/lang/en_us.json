@@ -43,7 +43,7 @@
   "item.minecraft.lingering_potion.effect.damage_resistance_potion": "Damage Resistance Lingering Potion",
 
 
-  "item.minecraft.potion.effect.damage_potion": "More Da mage Pot",
+  "item.minecraft.potion.effect.damage_potion": "More Damage Pot",
   "item.minecraft.splash_potion.effect.damage_potion": "More Damage Splash Pot",
   "item.minecraft.lingering_potion.effect.damage_potion": "More Damage Lingering Potion",
 
@@ -53,6 +53,18 @@
   "item.minecraft.potion.effect.speed_potion": "Speed Pot",
   "item.minecraft.splash_potion.effect.speed_potion": "Speed Splash Pot",
   "item.minecraft.lingering_potion.effect.speed_potion": "Speed Lingering Potion",
+
+  "block.mccourse.walnut_log": "Walnut Log",
+  "block.mccourse.walnut_planks": "Walnut Planks",
+  "block.mccourse.walnut_wood": "Walnut Wood",
+  "block.mccourse.stripped_walnut_log": "Stripped Walnut Log",
+  "block.mccourse.stripped_walnut_wood": "Stripped Walnut Wood",
+  "block.mccourse.walnut_leaves": "Walnut Leaves",
+
+
+
+  "block.mccourse.walnut_sign": "Walnut Sign",
+  "block.mccourse.walnut_hanging_sign": "Walnut Hanging Sign",
 
   "item.minecraft.potion.effect.saturation_potion": "Hunger Pot",
   "item.minecraft.splash_potion.effect.saturation_potion": "Hunger Splash Pot",
@@ -64,6 +76,15 @@
 
   "block.mccourse.alexandrite_block": "Block of Alexandrite",
   "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite",
+
+  "item.mccourse.rhino_spawn_egg": "Rhino Spawn Egg",
+
+  "item.mccourse.dice": "Dice",
+
+  "item.mccourse.walnut_boat": "Walnut Boat",
+  "item.mccourse.walnut_chest_boat": "Walnut Chest Boat",
+
+  "block.mccourse.walnut_sapling": "Walnut Sapling",
 
   "block.mccourse.alexandrite_ore": "Alexandrite Ore",
   "block.mccourse.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
@@ -106,5 +127,9 @@
 
   "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
   "tooltip.mccourse.metal_detector.tooltip": "Press §eSHIFT§r for more Information",
-  "tooltip.mccourse.sound_block": "Plays nice sounds when walking or right-clicking."
+  "tooltip.mccourse.sound_block": "Plays nice sounds when walking or right-clicking.",
+
+
+  "mccourse.tooltip.liquid.amount.with.capacity": "%s / %s mB",
+  "mccourse.tooltip.liquid.amount": "%s mB"
 }

@@ -46,9 +46,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ALEXANDRITE_WALL.get());
         this.dropSelf(ModBlocks.ALEXANDRITE_TRAPDOOR.get());
 
-
-        this.dropSelf(ModBlocks.GEM_EMPOWERING_STATION.get());
-
         this.add(ModBlocks.ALEXANDRITE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.ALEXANDRITE_DOOR.get()));
 
@@ -62,6 +59,27 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SNAPDRAGON.get());
         this.add(ModBlocks.POTTED_SNAPDRAGON.get(),
                 createPotFlowerItemTable(ModBlocks.POTTED_SNAPDRAGON.get()));
+
+        this.dropSelf(ModBlocks.GEM_EMPOWERING_STATION.get());
+
+        this.dropSelf(ModBlocks.WALNUT_LOG.get());
+        this.dropSelf(ModBlocks.WALNUT_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_WALNUT_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_WALNUT_WOOD.get());
+        this.dropSelf(ModBlocks.WALNUT_PLANKS.get());
+        this.dropSelf(ModBlocks.WALNUT_SAPLING.get());
+
+        this.add(ModBlocks.WALNUT_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WALNUT_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        this.add(ModBlocks.WALNUT_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WALNUT_SIGN.get()));
+        this.add(ModBlocks.WALNUT_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WALNUT_SIGN.get()));
+        this.add(ModBlocks.WALNUT_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WALNUT_HANGING_SIGN.get()));
+        this.add(ModBlocks.WALNUT_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.WALNUT_HANGING_SIGN.get()));
 
     }
 

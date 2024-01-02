@@ -54,6 +54,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.SNAPDRAGON);
 
         complexBlock(ModBlocks.GEM_EMPOWERING_STATION.get());
+
+        saplingItem(ModBlocks.WALNUT_SAPLING);
+
+        simpleItem(ModItems.WALNUT_SIGN);
+        simpleItem(ModItems.WALNUT_HANGING_SIGN);
+
+        withExistingParent(ModItems.RHINO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        simpleItem(ModItems.DICE);
+        simpleItem(ModItems.WALNUT_BOAT);
+        simpleItem(ModItems.WALNUT_CHEST_BOAT);
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(MCCourseMod.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder complexBlock(Block block) {

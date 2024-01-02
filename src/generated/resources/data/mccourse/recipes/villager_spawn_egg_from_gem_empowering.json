@@ -6,6 +6,7 @@
     }
   ],
   "output": {
+    "count": 64,
     "item": "minecraft:villager_spawn_egg"
   }
 }

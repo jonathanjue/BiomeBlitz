@@ -1,18 +1,12 @@
 {
   "entries": [
+    "mccourse:alexandrite_shield_from_village_jungle",
+    "mccourse:kohlrabi_seeds_from_grass",
     "mccourse:kohlrabi_seeds_from_fern",
-    "mccourse:alexandrite_helmet_from_ancient_city",
-    "mccourse:alexandrite_from_mansion",
     "mccourse:alexandrite_sword_from_mansion",
     "mccourse:alexandrite_staff_from_village_desert",
-    "mccourse:alexandrite_from_ancient_city",
-    "mccourse:alexandrite_pickaxe_from_ancient_city",
-    "mccourse:alexandrite_shield_from_village_jungle",
-    "mccourse:alexandrite_shovel_from_ancient_city",
-    "mccourse:kohlrabi_seeds_from_grass",
     "mccourse:alexandrite_from_desert_pyramid",
-    "mccourse:metal_detector_sword_from_jungle_temple",
-    "mccourse:alexandrite_from_shipwreck"
+    "mccourse:metal_detector_sword_from_jungle_temple"
   ],
   "replace": false
 }

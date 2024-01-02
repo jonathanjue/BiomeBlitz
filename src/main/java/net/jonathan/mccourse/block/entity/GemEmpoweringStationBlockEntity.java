@@ -1,6 +1,7 @@
 package net.jonathan.mccourse.block.entity;
 
 import net.jonathan.mccourse.block.custom.GemEmpoweringStationBlock;
+import net.jonathan.mccourse.fluid.ModFluids;
 import net.jonathan.mccourse.item.ModItems;
 import net.jonathan.mccourse.recipe.GemEmpoweringRecipe;
 import net.jonathan.mccourse.screen.GemEmpoweringStationMenu;
@@ -28,12 +29,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.fluids.FluidStack;
-import net.minecraftforge.fluids.IFluidBlock;
 import net.minecraftforge.fluids.capability.IFluidHandler;
 import net.minecraftforge.fluids.capability.templates.FluidTank;
 import net.minecraftforge.items.IItemHandler;
@@ -49,6 +50,9 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
         @Override
         protected void onContentsChanged(int slot) {
             setChanged();
+            if (!level.isClientSide()) {
+                level.sendBlockUpdated(getBlockPos(),getBlockState(), getBlockState(), 3);
+            }
         }
 
         @Override
@@ -69,7 +73,6 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
     private static final int ENERGY_ITEM_SLOT = 3;
 
     private LazyOptional<IItemHandler> lazyItemHandler = LazyOptional.empty();
-    private LazyOptional<IFluidHandler> lazyFluidHandler = LazyOptional.empty();
     private final Map<Direction, LazyOptional<WrappedHandler>> directionWrappedHandlerMap =
             new InventoryDirectionWrapper(itemHandler,
                     new InventoryDirectionEntry(Direction.DOWN, OUTPUT_SLOT, false),
@@ -80,6 +83,7 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
                     new InventoryDirectionEntry(Direction.UP, INPUT_SLOT, true)).directionsMap;
 
     private LazyOptional<IEnergyStorage> lazyEnergyHandler = LazyOptional.empty();
+    private LazyOptional<IFluidHandler> lazyFluidHandler = LazyOptional.empty();
 
     protected final ContainerData data;
     private int progress = 0;
@@ -93,7 +97,7 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
             @Override
             protected void onContentsChanged() {
                 setChanged();
-                if (!level.isClientSide) {
+                if(!level.isClientSide()) {
                     level.sendBlockUpdated(getBlockPos(), getBlockState(), getBlockState(), 3);
                 }
             }
@@ -113,6 +117,16 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
                 getLevel().sendBlockUpdated(getBlockPos(), getBlockState(), getBlockState(), 3);
             }
         };
+    }
+
+    public ItemStack getRenderStack() {
+        ItemStack stack = itemHandler.getStackInSlot(OUTPUT_SLOT);
+
+        if(stack.isEmpty()) {
+            stack = itemHandler.getStackInSlot(INPUT_SLOT);
+        }
+// how do you change the theme
+        return stack;
     }
 
     public GemEmpoweringStationBlockEntity(BlockPos pPos, BlockState pBlockState) {
@@ -146,6 +160,10 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
         return this.ENERGY_STORAGE;
     }
 
+    public FluidStack getFluid() {
+        return FLUID_TANK.getFluid();
+    }
+
     public void drops() {
         SimpleContainer inventory = new SimpleContainer(itemHandler.getSlots());
         for (int i = 0; i < itemHandler.getSlots(); i++) {
@@ -154,6 +172,7 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
 
         Containers.dropContents(this.level, this.worldPosition, inventory);
     }
+
 
     @Override
     public Component getDisplayName() {
@@ -238,6 +257,7 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
 
     public void tick(Level level, BlockPos pPos, BlockState pState) {
         fillUpOnEnergy(); // This is a "placeholder" for getting energy through wires or similar
+        fillUpOnFluid();
 
         if (isOutputSlotEmptyOrReceivable() && hasRecipe()) {
             increaseCraftingProcess();
@@ -246,11 +266,46 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
 
             if (hasProgressFinished()) {
                 craftItem();
+                extractFluid();
                 resetProgress();
             }
         } else {
             resetProgress();
         }
+    }
+
+    private void extractFluid() {
+        this.FLUID_TANK.drain(500, IFluidHandler.FluidAction.EXECUTE);
+    }
+
+    private void fillUpOnFluid() {
+        if(hasFluidSourceInSlot(FLUID_INPUT_SLOT)) {
+            transferItemFluidToTank(FLUID_INPUT_SLOT);
+        }
+    }
+
+    private void transferItemFluidToTank(int fluidInputSlot) {
+        this.itemHandler.getStackInSlot(fluidInputSlot).getCapability(ForgeCapabilities.FLUID_HANDLER_ITEM).ifPresent(iFluidHandlerItem -> {
+            int drainAmount = Math.min(this.FLUID_TANK.getSpace(), 1000);
+
+            FluidStack stack = iFluidHandlerItem.drain(drainAmount, IFluidHandler.FluidAction.SIMULATE);
+            if(stack.getFluid() == Fluids.WATER) {
+                stack = iFluidHandlerItem.drain(drainAmount, IFluidHandler.FluidAction.EXECUTE);
+                fillTankWithFluid(stack, iFluidHandlerItem.getContainer());
+            }
+        });
+    }
+
+    private void fillTankWithFluid(FluidStack stack, ItemStack container) {
+        this.FLUID_TANK.fill(new FluidStack(stack.getFluid(), stack.getAmount()), IFluidHandler.FluidAction.EXECUTE);
+
+        this.itemHandler.extractItem(FLUID_INPUT_SLOT, 1, false);
+        this.itemHandler.insertItem(FLUID_INPUT_SLOT, container, false);
+    }
+
+    private boolean hasFluidSourceInSlot(int fluidInputSlot) {
+        return this.itemHandler.getStackInSlot(fluidInputSlot).getCount() > 0 &&
+                this.itemHandler.getStackInSlot(fluidInputSlot).getCapability(ForgeCapabilities.FLUID_HANDLER_ITEM).isPresent();
     }
 
     private void extractEnergy() {
@@ -299,7 +354,12 @@ public class GemEmpoweringStationBlockEntity extends BlockEntity implements Menu
         ItemStack resultItem = recipe.get().getResultItem(getLevel().registryAccess());
 
         return canInsertAmountIntoOutputSlot(resultItem.getCount())
-                && canInsertItemIntoOutputSlot(resultItem.getItem()) && hasEnoughEnergyToCraft();
+                && canInsertItemIntoOutputSlot(resultItem.getItem()) && hasEnoughEnergyToCraft()
+                && hasEnoughFluidToCraft();
+    }
+
+    private boolean hasEnoughFluidToCraft() {
+        return this.FLUID_TANK.getFluidAmount() >= 500;
     }
 
     private boolean hasEnoughEnergyToCraft() {

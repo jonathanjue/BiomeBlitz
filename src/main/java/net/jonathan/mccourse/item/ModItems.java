@@ -2,11 +2,14 @@ package net.jonathan.mccourse.item;
 
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.ModBlocks;
+import net.jonathan.mccourse.entity.ModEntities;
+import net.jonathan.mccourse.entity.custom.ModBoatEntity;
 import net.jonathan.mccourse.fluid.ModFluids;
 import net.jonathan.mccourse.item.custom.*;
 import net.jonathan.mccourse.sound.ModSounds;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,7 +25,7 @@ public class ModItems {
 
 
             public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
-                    () -> new MetalDetectorItem(new Item.Properties()));
+                    () -> new Item(new Item.Properties()));
             public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
                     () -> new MetalDetectorItem(new Item.Properties().durability(512)));
 
@@ -33,13 +36,13 @@ public class ModItems {
             public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
                     () -> new SlowingSwordItem(ModToolTiers.ALEXANDRITE, 14, -2.3f, new Item.Properties().durability(500000000)));
             public static final RegistryObject<Item> ALEXANDRITE_PICKAXE = ITEMS.register("alexandrite_pickaxe",
-                    () -> new PickaxeItem(ModToolTiers.ALEXANDRITE, 15, -3, new Item.Properties().durability(1000000000)));
+                    () -> new WeakPickaxeItem(ModToolTiers.ALEXANDRITE, 15, -3, new Item.Properties().durability(1000000000)));
             public static final RegistryObject<Item> ALEXANDRITE_SHOVEL = ITEMS.register("alexandrite_shovel",
-                    () -> new ShovelItem(ModToolTiers.ALEXANDRITE, 15, -2, new Item.Properties().durability(500000000)));
+                    () -> new GlowingShovelItem(ModToolTiers.ALEXANDRITE, 15, -2, new Item.Properties().durability(500000000)));
             public static final RegistryObject<Item> ALEXANDRITE_AXE = ITEMS.register("alexandrite_axe",
-                    () -> new AxeItem(ModToolTiers.ALEXANDRITE, 10, -2.75f, new Item.Properties().durability(700000000)));
+                    () -> new PoisonAxeItem(ModToolTiers.ALEXANDRITE, 10, -2.75f, new Item.Properties().durability(700000000)));
             public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
-                    () -> new HoeItem(ModToolTiers.ALEXANDRITE, 10, -2.7f, new Item.Properties().durability(1000000000)));
+                    () -> new ConfusedScytheItem(ModToolTiers.ALEXANDRITE, 10, -2.7f, new Item.Properties().durability(1000000000)));
             public static final RegistryObject<Item> ALEXANDRITE_PAXEL = ITEMS.register("alexandrite_paxel",
                     () -> new BestPaxelItem(ModToolTiers.ALEXANDRITE, 25, -2.8f, new Item.Properties().durability(1000000000)));
 
@@ -76,7 +79,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> RADIATION_STAFF = ITEMS.register("radiation_staff",
-            () -> new Item(new Item.Properties().durability(3245)));
+            () -> new RadiationStaffItem(new Item.Properties().durability(5024)));
 
 
     public static final RegistryObject<Item> ALEXANDRITE_STAFF = ITEMS.register("alexandrite_staff",
@@ -95,7 +98,23 @@ public class ModItems {
 
 
 
+    public static final RegistryObject<Item> WALNUT_SIGN = ITEMS.register("walnut_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.WALNUT_SIGN.get(), ModBlocks.WALNUT_WALL_SIGN.get()));
+    public static final RegistryObject<Item> WALNUT_HANGING_SIGN = ITEMS.register("walnut_hanging_sign",
+            () -> new HangingSignItem(ModBlocks.WALNUT_HANGING_SIGN.get(), ModBlocks.WALNUT_WALL_HANGING_SIGN.get(),
+                    new Item.Properties().stacksTo(16)));
 
+
+    public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> DICE = ITEMS.register("dice",
+            () -> new DiceItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> WALNUT_BOAT = ITEMS.register("walnut_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.WALNUT, new Item.Properties()));
+    public static final RegistryObject<Item> WALNUT_CHEST_BOAT = ITEMS.register("walnut_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.WALNUT, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
