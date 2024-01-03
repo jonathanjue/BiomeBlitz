@@ -145,7 +145,8 @@ public class ModBlocks {
             });
 
     public static final RegistryObject<Block> WALNUT_SAPLING = registerBlock("walnut_sapling",
-            () -> new SaplingBlock(new WalnutTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+            () -> new ModSaplingBlock(new WalnutTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
 
     public static final RegistryObject<Block> WALNUT_SIGN = BLOCKS.register("walnut_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.WALNUT));

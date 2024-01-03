@@ -25,6 +25,8 @@ import net.jonathan.mccourse.screen.ModMenuTypes;
 import net.jonathan.mccourse.sound.ModSounds;
 import net.jonathan.mccourse.util.ModWoodTypes;
 import net.jonathan.mccourse.villager.ModVillagers;
+import net.jonathan.mccourse.worldgen.tree.ModFoliagePlacerTypes;
+import net.jonathan.mccourse.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -62,6 +64,8 @@ public class MCCourseMod {
 
         ModCreativeModeTabs.register(modEventBus);
 
+
+        ModTrunkPlacerTypes.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -71,11 +75,14 @@ public class MCCourseMod {
         ModLootModifiers.register(modEventBus);
         ModPaintings.register(modEventBus);
 
+        ModFoliagePlacerTypes.register(modEventBus);
+
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
 
         ModVillagers.register(modEventBus);
         ModParticles.register(modEventBus);
+
 
         ModFluidTypes.register(modEventBus);
         ModFluids.register(modEventBus);
