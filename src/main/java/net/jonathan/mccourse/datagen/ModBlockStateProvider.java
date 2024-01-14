@@ -3,11 +3,17 @@ package net.jonathan.mccourse.datagen;
 import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.block.ModBlocks;
 import net.jonathan.mccourse.block.custom.AlexandriteLampBlock;
+import net.jonathan.mccourse.block.custom.CattailCropBlock;
 import net.jonathan.mccourse.block.custom.KohlrabiCropBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.data.models.blockstates.MultiVariantGenerator;
+import net.minecraft.data.models.model.TextureMapping;
+import net.minecraft.data.models.model.TextureSlot;
+import net.minecraft.data.models.model.TexturedModel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -33,6 +39,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.NETHER_ALEXANDRITE_ORE);
 
         blockWithItem(ModBlocks.SOUND_BLOCK);
+        blockWithItem(ModBlocks.KAUPEN_PORTAL);
 
         stairsBlock((StairBlock) ModBlocks.ALEXANDRITE_STAIRS.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
         slabBlock(((SlabBlock) ModBlocks.ALEXANDRITE_SLAB.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
@@ -86,7 +93,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
         hangingSignBlock(ModBlocks.WALNUT_HANGING_SIGN.get(), ModBlocks.WALNUT_WALL_HANGING_SIGN.get(),
                 blockTexture(ModBlocks.WALNUT_PLANKS.get()));
 
+        leavesBlock(ModBlocks.COLORED_LEAVES);
 
+        makeCattailCrop(((CattailCropBlock) ModBlocks.CATTAIL_CROP.get()), "cat_tail_stage", "cat_tail_stage");
+
+
+        blockWithItem(ModBlocks.RUBY_BLOCK);
+        blockWithItem(ModBlocks.RUBY_BLOCK_1);
+        blockWithItem(ModBlocks.RUBY_BLOCK_2);
+        blockWithItem(ModBlocks.RUBY_BLOCK_3);
+
+        blockWithItem(ModBlocks.WAXED_RUBY_BLOCK);
+        blockWithItem(ModBlocks.WAXED_RUBY_BLOCK_1);
+        blockWithItem(ModBlocks.WAXED_RUBY_BLOCK_2);
+        blockWithItem(ModBlocks.WAXED_RUBY_BLOCK_3);
     }
 
     public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {
@@ -109,20 +129,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(),
-                models().cubeAll(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
+                models().singleTexture(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), new ResourceLocation("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
-
-
 
     private void saplingBlock(RegistryObject<Block> blockRegistryObject) {
         simpleBlock(blockRegistryObject.get(),
                 models().cross(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
-
-
-
-
-
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {
         Function<BlockState, ConfiguredModel[]> function = state -> states(state, block, modelName, textureName);
@@ -134,6 +148,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ConfiguredModel[] models = new ConfiguredModel[1];
         models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((KohlrabiCropBlock) block).getAgeProperty()),
                 new ResourceLocation(MCCourseMod.MOD_ID, "block/" + textureName + state.getValue(((KohlrabiCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
+
+    public void makeCattailCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> cattailStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] cattailStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((CattailCropBlock) block).getAgeProperty()),
+                new ResourceLocation(MCCourseMod.MOD_ID, "block/" + textureName + state.getValue(((CattailCropBlock) block).getAgeProperty()))).renderType("cutout"));
 
         return models;
     }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite"
+    },
+    "E": {
+      "item": "minecraft:ender_dragon_spawn_egg"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AEA",
+    "AAA"
+  ],
+  "result": {
+    "item": "mccourse:rhino_spawn_egg"
+  },
+  "show_notification": true
+}

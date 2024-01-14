@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blue_concrete"
+    },
+    "R": {
+      "item": "minecraft:red_concrete"
+    },
+    "S": {
+      "item": "minecraft:snowball"
+    },
+    "W": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "pattern": [
+    "R B",
+    "WSW",
+    "B R"
+  ],
+  "result": {
+    "item": "mccourse:dice"
+  },
+  "show_notification": true
+}

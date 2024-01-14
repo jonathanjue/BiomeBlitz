@@ -14,7 +14,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.fluids.FluidStack;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -277,17 +279,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.DATA_TABLET.get()).build()))
                 .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.WOLF_SPAWN_EGG)
-                .pattern("BBB")
-                .pattern("B#B")
-                .pattern("BBB")
-                .define('B', Items.BONE)
-                .define('#', Items.TOTEM_OF_UNDYING)
-                .unlockedBy("has_metal_detector", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.DATA_TABLET.get()).build()))
-                .save(pWriter);
-
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BAR_BRAWL_RECORD.get())
                 .pattern(" # ")
@@ -576,6 +567,101 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', Blocks.NOTE_BLOCK)
                 .define('A', ModItems.ALEXANDRITE.get())
                 .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()));
+    //Portal
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.KAUPEN_PORTAL.get())
+                .pattern("AAA")
+                .pattern("ACA")
+                .pattern("AAA")
+                .define('C', ModItems.CATTAIL.get())
+                .define('A', ModBlocks.ALEXANDRITE_BLOCK.get())
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+        //Ruby
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_BLOCK.get())
+                .pattern("DDD")
+                .pattern("GCG")
+                .pattern("DDD")
+                .define('G', Blocks.GOLD_BLOCK)
+                .define('D', Blocks.DIAMOND_BLOCK)
+                .define('C', Blocks.COPPER_BLOCK)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+    //Sign
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WALNUT_SIGN.get())
+                .pattern("WWW")
+                .pattern("WWW")
+                .pattern(" S ")
+                .define('W', ModBlocks.WALNUT_PLANKS.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+    //Hanging Sign
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WALNUT_HANGING_SIGN.get())
+                .pattern("SWS")
+                .pattern("WWW")
+                .pattern("   ")
+                .define('W', ModBlocks.WALNUT_PLANKS.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+    //Dice
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DICE.get())
+                .pattern("R B")
+                .pattern("WSW")
+                .pattern("B R")
+                .define('R', Blocks.RED_CONCRETE)
+                .define('B', Blocks.BLUE_CONCRETE)
+                .define('W', Blocks.WHITE_CONCRETE)
+                .define('S', Items.SNOWBALL)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+    //Rhino Spawn Egg
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RHINO_SPAWN_EGG.get())
+                .pattern("AAA")
+                .pattern("AEA")
+                .pattern("AAA")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('E', Items.ENDER_DRAGON_SPAWN_EGG)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+    //Ender Dragon egg
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.ENDER_DRAGON_SPAWN_EGG)
+                .pattern(" T ")
+                .pattern("TWT")
+                .pattern(" T ")
+                .define('T', Items.TOTEM_OF_UNDYING)
+                .define('W', Items.WITHER_SPAWN_EGG)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+    //Wither Spawn egg
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.WITHER_SPAWN_EGG)
+                .pattern("WWW")
+                .pattern("SGS")
+                .pattern("TST")
+                .define('T', Items.TOTEM_OF_UNDYING)
+                .define('S', Blocks.SOUL_SAND)
+                .define('W', Blocks.WITHER_SKELETON_SKULL)
+                .define('G', Items.WOLF_SPAWN_EGG)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
+                .save(pWriter);
+    //Wolf Spawn Egg
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.WOLF_SPAWN_EGG)
+                .pattern(" T ")
+                .pattern("DBD")
+                .pattern(" T ")
+                .define('T', Items.TOTEM_OF_UNDYING)
+                .define('B', Items.BONE)
+                .define('D', Items.DIAMOND_BLOCK)
+                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
                 .save(pWriter);
         //alexandrite_stairs
@@ -623,29 +709,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("CSC")
                 .define('S', Items.SALMON)
                 .define('C', Items.COD);
-
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.ANCIENT_DEBRIS)
                 .pattern("TTT")
                 .pattern(" D ")
                 .pattern("TTT")
                 .define('T', Items.TOTEM_OF_UNDYING)
                 .define('D', Items.DIAMOND_BLOCK);
-
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.DIAMOND)
                 .pattern("   ")
                 .pattern(" T ")
                 .pattern("   ")
                 .define('T', Items.TOTEM_OF_UNDYING)
-
-
                 .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
                 of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
                 .save(pWriter);
 
-                ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
                 .requires(ModBlocks.ALEXANDRITE_BLOCK.get())
+
+
                 .unlockedBy("has_alexandrite_block", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModBlocks.ALEXANDRITE_BLOCK.get()).build()))
                 .save(pWriter);
@@ -655,51 +738,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25f, 200, "alexandrite");
         oreBlasting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25f, 100, "alexandrite");
 
-        new GemEmpoweringRecipeBuilder(ModItems.RAW_ALEXANDRITE.get(), ModItems.ALEXANDRITE.get(), 3)
+        new GemEmpoweringRecipeBuilder(ModItems.RAW_ALEXANDRITE.get(), ModItems.ALEXANDRITE.get(), 3, 160, 50,
+                new FluidStack(Fluids.WATER, 2000))
                 .unlockedBy("has_raw_alexandrite", has(ModItems.RAW_ALEXANDRITE.get())).save(pWriter);
 
-        new GemEmpoweringRecipeBuilder(Items.COAL, Items.DIAMOND, 7)
+        new GemEmpoweringRecipeBuilder(Items.COAL, Items.DIAMOND, 7, 40, 150,
+                new FluidStack(Fluids.LAVA, 500))
                 .unlockedBy("has_diamond", has(Items.DIAMOND)).save(pWriter);
-
-
-        new GemEmpoweringRecipeBuilder(Items.BLAZE_POWDER, Items.ENDER_PEARL, 64)
-                .unlockedBy("has_diamond", has(Items.DIAMOND)).save(pWriter);
-
-
-        new GemEmpoweringRecipeBuilder(Items.NETHERITE_SWORD, ModItems.ALEXANDRITE_SWORD.get(), 1)
-                .unlockedBy("has_diamond", has(Items.NETHERITE_SWORD)).save(pWriter);
-
-
-        new GemEmpoweringRecipeBuilder(Items.SAND, Items.TNT, 64)
-                .unlockedBy("has_diamond", has(Items.SAND)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.TNT, Items.TNT_MINECART, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.IRON_INGOT, Items.RAIL, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.OAK_LOG, Items.OBSIDIAN, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.OBSIDIAN, Items.END_CRYSTAL, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.EMERALD_BLOCK, Items.TOTEM_OF_UNDYING, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.RED_SAND, Items.BOW, 1)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.SANDSTONE, Items.VILLAGER_SPAWN_EGG, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-        new GemEmpoweringRecipeBuilder(Items.MAP, Blocks.CARTOGRAPHY_TABLE, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-        new GemEmpoweringRecipeBuilder(Items.OAK_PLANKS, Blocks.EMERALD_BLOCK, 64)
-                .unlockedBy("has_diamond", has(Items.TNT)).save(pWriter);
-
-
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

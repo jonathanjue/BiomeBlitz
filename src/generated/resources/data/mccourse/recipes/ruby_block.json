@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "GCG",
+    "DDD"
+  ],
+  "result": {
+    "item": "mccourse:ruby_block"
+  },
+  "show_notification": true
+}

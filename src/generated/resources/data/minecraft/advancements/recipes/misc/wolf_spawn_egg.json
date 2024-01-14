@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_metal_detector": {
+    "has_alexandrite": {
       "conditions": {
         "items": [
           {
             "items": [
-              "mccourse:data_tablet"
+              "mccourse:alexandrite_shovel"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_metal_detector",
+      "has_alexandrite",
       "has_the_recipe"
     ]
   ],

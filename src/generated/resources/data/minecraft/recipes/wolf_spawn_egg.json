@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:totem_of_undying"
-    },
     "B": {
       "item": "minecraft:bone"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
     }
   },
   "pattern": [
-    "BBB",
-    "B#B",
-    "BBB"
+    " T ",
+    "DBD",
+    " T "
   ],
   "result": {
     "item": "minecraft:wolf_spawn_egg"

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:wolf_spawn_egg"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "W": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "SGS",
+    "TST"
+  ],
+  "result": {
+    "item": "minecraft:wither_spawn_egg"
+  },
+  "show_notification": true
+}

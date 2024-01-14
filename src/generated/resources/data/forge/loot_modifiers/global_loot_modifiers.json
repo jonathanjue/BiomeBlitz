@@ -1,12 +1,13 @@
 {
   "entries": [
+    "mccourse:metal_detector_from_jungle_temple",
     "mccourse:alexandrite_shield_from_village_jungle",
+    "mccourse:metal_detector_from_suspicious_sand",
     "mccourse:kohlrabi_seeds_from_grass",
     "mccourse:kohlrabi_seeds_from_fern",
     "mccourse:alexandrite_sword_from_mansion",
     "mccourse:alexandrite_staff_from_village_desert",
-    "mccourse:alexandrite_from_desert_pyramid",
-    "mccourse:metal_detector_sword_from_jungle_temple"
+    "mccourse:alexandrite_from_desert_pyramid"
   ],
   "replace": false
 }

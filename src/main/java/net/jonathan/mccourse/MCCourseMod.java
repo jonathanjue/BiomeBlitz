@@ -19,12 +19,16 @@ import net.jonathan.mccourse.painting.ModPaintings;
 import net.jonathan.mccourse.particle.ModParticles;
 import net.jonathan.mccourse.potion.BetterBrewingRecipe;
 import net.jonathan.mccourse.potion.ModPotions;
+import net.jonathan.mccourse.recipe.KaupenFurnaceRecipe;
 import net.jonathan.mccourse.recipe.ModRecipes;
 import net.jonathan.mccourse.screen.GemEmpoweringStationScreen;
+import net.jonathan.mccourse.screen.KaupenFurnaceScreen;
 import net.jonathan.mccourse.screen.ModMenuTypes;
 import net.jonathan.mccourse.sound.ModSounds;
 import net.jonathan.mccourse.util.ModWoodTypes;
 import net.jonathan.mccourse.villager.ModVillagers;
+import net.jonathan.mccourse.worldgen.biome.ModTerraBlenderAPI;
+import net.jonathan.mccourse.worldgen.biome.surface.ModSurfaceRules;
 import net.jonathan.mccourse.worldgen.tree.ModFoliagePlacerTypes;
 import net.jonathan.mccourse.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
@@ -52,6 +56,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import terrablender.api.SurfaceRuleManager;
+
+import java.awt.*;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MCCourseMod.MOD_ID)
@@ -64,8 +71,6 @@ public class MCCourseMod {
 
         ModCreativeModeTabs.register(modEventBus);
 
-
-        ModTrunkPlacerTypes.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -75,14 +80,11 @@ public class MCCourseMod {
         ModLootModifiers.register(modEventBus);
         ModPaintings.register(modEventBus);
 
-        ModFoliagePlacerTypes.register(modEventBus);
-
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
 
         ModVillagers.register(modEventBus);
         ModParticles.register(modEventBus);
-
 
         ModFluidTypes.register(modEventBus);
         ModFluids.register(modEventBus);
@@ -92,6 +94,11 @@ public class MCCourseMod {
 
         ModRecipes.register(modEventBus);
         ModEntities.register(modEventBus);
+
+        ModTrunkPlacerTypes.register(modEventBus);
+        ModFoliagePlacerTypes.register(modEventBus);
+
+        ModTerraBlenderAPI.registerRegions();
 
         modEventBus.addListener(this::commonSetup);
 
@@ -126,6 +133,7 @@ public class MCCourseMod {
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.HEALING, Items.ENCHANTED_GOLDEN_APPLE, ModPotions.HEALTH_BOOST_POTION.get()));
 
+            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
         });
     }
 
@@ -161,6 +169,7 @@ public class MCCourseMod {
                 ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_SOAP_WATER.get(), RenderType.translucent());
 
                 MenuScreens.register(ModMenuTypes.GEM_EMPOWERING_MENU.get(), GemEmpoweringStationScreen::new);
+                MenuScreens.register(ModMenuTypes.KAUPEN_FURNACE_MENU.get(), KaupenFurnaceScreen::new);
 
                 EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
                 EntityRenderers.register(ModEntities.DICE_PROJECTILE.get(), ThrownItemRenderer::new);

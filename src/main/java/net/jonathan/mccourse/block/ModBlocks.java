@@ -147,7 +147,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> WALNUT_SAPLING = registerBlock("walnut_sapling",
             () -> new ModSaplingBlock(new WalnutTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
-
     public static final RegistryObject<Block> WALNUT_SIGN = BLOCKS.register("walnut_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.WALNUT));
     public static final RegistryObject<Block> WALNUT_WALL_SIGN = BLOCKS.register("walnut_wall_sign",
@@ -160,6 +159,54 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DICE_BLOCK = BLOCKS.register("dice_block",
             () -> new DiceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()));
+
+    public static final RegistryObject<Block> COLORED_LEAVES = registerBlock("colored_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+
+    public static final RegistryObject<Block> CATTAIL_CROP = BLOCKS.register("cattail_crop",
+            () -> new CattailCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> KAUPEN_PORTAL = registerBlock("kaupen_portal",
+            () -> new KaupenPortalBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_PORTAL).noLootTable().noOcclusion().noCollission()));
+
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+            () -> new DegradableRubyBlock(GemDegradable.GemDegradationLevel.UNAFFECTED,
+                    BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> RUBY_BLOCK_1 = registerBlock("ruby_block_1",
+            () -> new DegradableRubyBlock(GemDegradable.GemDegradationLevel.EXPOSED,
+                    BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> RUBY_BLOCK_2 = registerBlock("ruby_block_2",
+            () -> new DegradableRubyBlock(GemDegradable.GemDegradationLevel.WEATHERED,
+                    BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> RUBY_BLOCK_3 = registerBlock("ruby_block_3",
+            () -> new DegradableRubyBlock(GemDegradable.GemDegradationLevel.DEGRADED,
+                    BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> WAXED_RUBY_BLOCK = registerBlock("waxed_ruby_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> WAXED_RUBY_BLOCK_1 = registerBlock("waxed_ruby_block_1",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> WAXED_RUBY_BLOCK_2 = registerBlock("waxed_ruby_block_2",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> WAXED_RUBY_BLOCK_3 = registerBlock("waxed_ruby_block_3",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> KAUPEN_FURNACE_BLOCK = registerBlock("kaupen_furnace",
+            () -> new KaupenFurnaceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

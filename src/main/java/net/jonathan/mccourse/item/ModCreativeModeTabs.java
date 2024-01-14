@@ -55,6 +55,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WALNUT_BOAT.get());
                         output.accept(ModItems.WALNUT_CHEST_BOAT.get());
 
+                        output.accept(ModItems.CATTAIL_SEEDS.get());
+                        output.accept(ModItems.CATTAIL.get());
+
 
                         output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
@@ -86,6 +89,21 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WALNUT_PLANKS.get());
                         output.accept(ModBlocks.WALNUT_SAPLING.get());
                         output.accept(ModBlocks.WALNUT_LEAVES.get());
+
+                        output.accept(ModBlocks.COLORED_LEAVES.get());
+                        output.accept(ModBlocks.KAUPEN_PORTAL.get());
+
+
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_BLOCK_1.get());
+                        output.accept(ModBlocks.RUBY_BLOCK_2.get());
+                        output.accept(ModBlocks.RUBY_BLOCK_3.get());
+
+                        output.accept(ModBlocks.WAXED_RUBY_BLOCK.get());
+                        output.accept(ModBlocks.WAXED_RUBY_BLOCK_1.get());
+                        output.accept(ModBlocks.WAXED_RUBY_BLOCK_2.get());
+                        output.accept(ModBlocks.WAXED_RUBY_BLOCK_3.get());
+
                     }).build());
 
 

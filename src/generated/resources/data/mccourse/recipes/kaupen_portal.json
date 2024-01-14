@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mccourse:alexandrite_block"
+    },
+    "C": {
+      "item": "mccourse:cattail"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "result": {
+    "item": "mccourse:kaupen_portal"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "W": {
+      "item": "minecraft:wither_spawn_egg"
+    }
+  },
+  "pattern": [
+    " T ",
+    "TWT",
+    " T "
+  ],
+  "result": {
+    "item": "minecraft:ender_dragon_spawn_egg"
+  },
+  "show_notification": true
+}
