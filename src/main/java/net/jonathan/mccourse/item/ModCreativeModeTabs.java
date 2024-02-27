@@ -93,6 +93,29 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.COLORED_LEAVES.get());
                         output.accept(ModBlocks.KAUPEN_PORTAL.get());
 
+                        output.accept(ModItems.WOODEN_GEM.get());
+                        output.accept(ModItems.STONE_GEM.get());
+                        output.accept(ModItems.COAL_GEM.get());
+                        output.accept(ModItems.EMERALD_GEM.get());
+                        output.accept(ModItems.LAPIS_GEM.get());
+                        output.accept(ModItems.DIAMOND_GEM.get());
+                        output.accept(ModItems.QUARTZ_GEM.get());
+                        output.accept(ModItems.AMETHYST_GEM.get());
+                        output.accept(ModItems.IRON_GEM.get());
+                        output.accept(ModItems.COPPER_GEM.get());
+                        output.accept(ModItems.GOLD_GEM.get());
+                        output.accept(ModItems.NETHERITE_GEM.get());
+                        output.accept(ModItems.BONE_GEM.get());
+                        output.accept(ModItems.FEATHER_GEM.get());
+                        output.accept(ModItems.HONEYCOMB_GEM.get());
+                        output.accept(ModItems.PRISMARINE_GEM.get());
+                        output.accept(ModItems.SHULKER_GEM.get());
+                        output.accept(ModItems.ENDER_GEM.get());
+                        output.accept(ModItems.NETHER_STAR_GEM.get());
+                        output.accept(ModItems.BLAZE_GEM.get());
+                        output.accept(ModItems.FIRE_CHARGE_GEM.get());
+                        output.accept(ModItems.ALEXANDRITE_GEM.get());
+
 
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_BLOCK_1.get());

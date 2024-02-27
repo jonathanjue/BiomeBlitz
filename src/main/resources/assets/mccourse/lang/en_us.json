@@ -1,5 +1,34 @@
 {
   "item.mccourse.alexandrite": "Alexandrite",
+
+  "item.mccourse.wooden_gem": "Wooden Gem",
+  "item.mccourse.stone_gem": "Stone Gem",
+  "item.mccourse.coal_gem": "Coal Gem",
+  "item.mccourse.emerald_gem": "Emerald Gem",
+  "item.mccourse.lapis_gem": "Lapis Gem",
+  "item.mccourse.diamond_gem": "Diamond Gem",
+  "item.mccourse.quartz_gem": "Quartz Gem",
+  "item.mccourse.amethyst_gem": "Amethyst Gem",
+  "item.mccourse.iron_gem": "Iron Gem",
+  "item.mccourse.copper_gem": "Copper Gem",
+  "item.mccourse.gold_gem": "Gold Gem",
+  "item.mccourse.netherite_gem": "Netherite Gem",
+  "item.mccourse.bone_gem": "Bone Gem",
+  "item.mccourse.feather_gem": "Feather Gem",
+  "item.mccourse.honeycomb_gem": "Honeycomb Gem",
+  "item.mccourse.prismarine_gem": "Prismarine Gem",
+  "item.mccourse.shulker_gem": "Shulker Gem",
+  "item.mccourse.ender_gem": "Ender Gem",
+  "item.mccourse.nether_star_gem": "Nether Star Gem",
+  "item.mccourse.blaze_gem": "Blaze Gem",
+  "item.mccourse.fire_charge_gem": "Fire Charge Gem",
+  "item.mccourse.alexandrite_gem": "Alexandrite Gem",
+
+
+
+
+
+
   "item.mccourse.raw_alexandrite": "Raw Alexandrite",
   "item.mccourse.metal_detector": "Metal Detector",
   "item.mccourse.kohlrabi": "Kohlrabi",

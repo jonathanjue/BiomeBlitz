@@ -22,9 +22,68 @@ public class ModItems {
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> WOODEN_GEM = ITEMS.register("wooden_gem",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> STONE_GEM = ITEMS.register("stone_gem",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COAL_GEM = ITEMS.register("coal_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_GEM = ITEMS.register("emerald_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_GEM = ITEMS.register("lapis_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_GEM = ITEMS.register("diamond_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> QUARTZ_GEM = ITEMS.register("quartz_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_GEM = ITEMS.register("amethyst_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_GEM = ITEMS.register("iron_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_GEM = ITEMS.register("copper_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_GEM = ITEMS.register("gold_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_GEM = ITEMS.register("netherite_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BONE_GEM = ITEMS.register("bone_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FEATHER_GEM = ITEMS.register("feather_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HONEYCOMB_GEM = ITEMS.register("honeycomb_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PRISMARINE_GEM = ITEMS.register("prismarine_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SHULKER_GEM = ITEMS.register("shulker_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ENDER_GEM = ITEMS.register("ender_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_STAR_GEM = ITEMS.register("nether_star_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLAZE_GEM = ITEMS.register("blaze_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FIRE_CHARGE_GEM = ITEMS.register("fire_charge_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE_GEM = ITEMS.register("alexandrite_gem",
+            () -> new Item(new Item.Properties()));
 
 
-            public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
                     () -> new Item(new Item.Properties()));
             public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
                     () -> new MetalDetectorItem(new Item.Properties().durability(512)));
@@ -48,6 +107,9 @@ public class ModItems {
 
             public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
                     () -> new HammerItem(ModToolTiers.ALEXANDRITE, 15, -2.7f, new Item.Properties().durability(1000000000)));
+
+
+
 
 
 
