@@ -31,7 +31,7 @@ import java.awt.image.PackedColorModel;
 import java.util.List;
 
 public class MetalDetectorItem extends Item {
-    public MetalDetectorItem(Properties pProperties) {
+    public  MetalDetectorItem(Properties pProperties) {
         super(pProperties);
     }
 

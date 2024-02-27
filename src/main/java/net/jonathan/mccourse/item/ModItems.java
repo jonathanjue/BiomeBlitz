@@ -44,7 +44,7 @@ public class ModItems {
             public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
                     () -> new ConfusedScytheItem(ModToolTiers.ALEXANDRITE, 10, -2.7f, new Item.Properties().durability(1000000000)));
             public static final RegistryObject<Item> ALEXANDRITE_PAXEL = ITEMS.register("alexandrite_paxel",
-                    () -> new BestPaxelItem(ModToolTiers.ALEXANDRITE, 25, -2.8f, new Item.Properties().durability(1000000000)));
+                    () -> new PaxelItem(ModToolTiers.ALEXANDRITE, 25, -2.8f, new Item.Properties().durability(1000000000)));
 
             public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
                     () -> new HammerItem(ModToolTiers.ALEXANDRITE, 15, -2.7f, new Item.Properties().durability(1000000000)));
