@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
             () -> new Item(new Item.Properties()));
 
+
+    public static final RegistryObject<Item> BASIC_GEM = ITEMS.register("basic_gem",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_GEM = ITEMS.register("wooden_gem",
             () -> new Item(new Item.Properties()));
 
@@ -169,6 +172,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> CREATURE_SPAWN_EGG = ITEMS.register("creature_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.CREATURE, 0x7e6240, 0xc5d1c5,
                     new Item.Properties()));
     public static final RegistryObject<Item> DICE = ITEMS.register("dice",
             () -> new DiceItem(new Item.Properties()));

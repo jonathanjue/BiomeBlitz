@@ -16,6 +16,9 @@ public class ModEntities {
     public static final RegistryObject<EntityType<RhinoEntity>> RHINO =
             ENTITY_TYPES.register("rhino", () -> EntityType.Builder.of(RhinoEntity::new, MobCategory.CREATURE)
                     .sized(2.5f, 2.5f).build("rhino"));
+    public static final RegistryObject<EntityType<CreatureEntity>> CREATURE =
+            ENTITY_TYPES.register("creature", () -> EntityType.Builder.of(CreatureEntity::new, MobCategory.CREATURE)
+                    .sized(4f, 4f).build("creature"));
 
     public static final RegistryObject<EntityType<DiceProjectileEntity>> DICE_PROJECTILE =
             ENTITY_TYPES.register("dice_projectile",

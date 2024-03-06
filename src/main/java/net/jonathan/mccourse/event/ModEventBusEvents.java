@@ -4,6 +4,7 @@ import net.jonathan.mccourse.MCCourseMod;
 import net.jonathan.mccourse.entity.ModEntities;
 import net.jonathan.mccourse.entity.client.MagicProjectileModel;
 import net.jonathan.mccourse.entity.client.RhinoModel;
+import net.jonathan.mccourse.entity.custom.CreatureEntity;
 import net.jonathan.mccourse.entity.custom.RhinoEntity;
 import net.jonathan.mccourse.entity.layers.ModModelLayers;
 import net.minecraft.client.model.BoatModel;
@@ -23,6 +24,7 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void registerLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModModelLayers.RHINO_LAYER, RhinoModel::createBodyLayer);
+        event.registerLayerDefinition(ModModelLayers.CREATURE_LAYER, RhinoModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.MAGIC_PROJECTILE_LAYER, MagicProjectileModel::createBodyLayer);
 
         event.registerLayerDefinition(ModModelLayers.WALNUT_BOAT_LAYER, BoatModel::createBodyModel);
@@ -31,7 +33,12 @@ public class ModEventBusEvents {
     }
 
     @SubscribeEvent
-    public static void registerAttributes(EntityAttributeCreationEvent event) {
+    public static void registerAttributesCreature(EntityAttributeCreationEvent event) {
+        event.put(ModEntities.CREATURE.get(), CreatureEntity.createAttributes().build());
+    }
+
+    @SubscribeEvent
+    public static void registerAttributesRhino(EntityAttributeCreationEvent event) {
         event.put(ModEntities.RHINO.get(), RhinoEntity.createAttributes().build());
     }
 

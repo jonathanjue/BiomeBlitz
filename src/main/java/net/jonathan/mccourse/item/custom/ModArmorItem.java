@@ -15,7 +15,7 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.ALEXANDRITE, new MobEffectInstance(MobEffects.JUMP, 200, 3))
+                    .put(ModArmorMaterials.ALEXANDRITE, new MobEffectInstance(MobEffects.JUMP, 1, 3))
 //                    .put(ModArmorMaterials.ALEXANDRITE, new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 4))
 //                    .put(ModArmorMaterials.ALEXANDRITE, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 3))
 //                    .put(ModArmorMaterials.ALEXANDRITE, new MobEffectInstance(MobEffects.REGENERATION, 200, 4))

@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-04T01:30:09.263666	Recipes
+// 1.20.1	2024-03-02T17:17:16.228997	Recipes
 a052bed88e42924de2158a3c90b7129a99a0be98 data/mccourse/advancements/recipes/alexandrite.json
 15201a36d0ae05c11f8a82b7b43dcf940f56c7f4 data/mccourse/advancements/recipes/misc/alexandrite.json
 5f3deb61d8911289bb60292d013061ea37d3a8b1 data/mccourse/advancements/recipes/misc/alexandrite_axe.json
@@ -118,7 +118,6 @@ b0b083bf5857c76e3e2a634f963f31d70659793d data/mccourse/recipes/rhino_spawn_egg.j
 2fcf2b7d9ada938f8e35d13047c6bab84b79674c data/minecraft/advancements/recipes/misc/chicken_spawn_egg.json
 78317bbe0fa689293a74534bbe955919fdf697ce data/minecraft/advancements/recipes/misc/cod_spawn_egg.json
 3851823b5da3fd9e880046da7668a69847e9d8b8 data/minecraft/advancements/recipes/misc/cow_spawn_egg.json
-b57c981e631dfa6356e65153a7314b9596bc6bd1 data/minecraft/advancements/recipes/misc/diamond.json
 c51f1a42f1871c663129156d0a92a798b799b6a7 data/minecraft/advancements/recipes/misc/enchanted_golden_apple.json
 4bad7679f0a5187755efa5d40314e769bd22841f data/minecraft/advancements/recipes/misc/ender_dragon_spawn_egg.json
 d0be24c6dd87fc5443baaae44535f54ce160d787 data/minecraft/advancements/recipes/misc/golden_apple.json
@@ -130,7 +129,6 @@ af46098578537fef0f4a61edc8d6eb151b0d71dd data/minecraft/advancements/recipes/mis
 574744a7baeeac2622056a4014ce853bf32122f3 data/minecraft/recipes/chicken_spawn_egg.json
 169c9d24b9ff0cf0fd68a5ef49d14673b3e81c2d data/minecraft/recipes/cod_spawn_egg.json
 ca82405482e7767b95df6119440b87f13c8e9a93 data/minecraft/recipes/cow_spawn_egg.json
-a12d5c894b2af9bb231710b21ec4df0ee3cf0019 data/minecraft/recipes/diamond.json
 01f90ce26c64a5dd57f13ead200269f446c85a36 data/minecraft/recipes/enchanted_golden_apple.json
 1cd13990eddf530c3d9bab3996005fa612e29855 data/minecraft/recipes/ender_dragon_spawn_egg.json
 ce7ad3d7dad5130d03d3a7cac0f773e9ac9227af data/minecraft/recipes/golden_apple.json

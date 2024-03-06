@@ -69,6 +69,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
+
+
+
+
+
+
+
+
+
+
+
 //
 //    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.COW_SPAWN_EGG)
 //                .pattern(" B ")
@@ -715,14 +726,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("TTT")
                 .define('T', Items.TOTEM_OF_UNDYING)
                 .define('D', Items.DIAMOND_BLOCK);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.DIAMOND)
-                .pattern("   ")
-                .pattern(" T ")
-                .pattern("   ")
-                .define('T', Items.TOTEM_OF_UNDYING)
-                .unlockedBy("has_alexandrite", inventoryTrigger(ItemPredicate.Builder.item().
-                of(ModItems.ALEXANDRITE_SHOVEL.get()).build()))
-                .save(pWriter);
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)

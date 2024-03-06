@@ -65,6 +65,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
+                        output.accept(ModItems.CREATURE_SPAWN_EGG.get() );
                         output.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
 
@@ -94,6 +95,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.KAUPEN_PORTAL.get());
 
                         output.accept(ModItems.WOODEN_GEM.get());
+                        output.accept(ModItems.BASIC_GEM.get());
                         output.accept(ModItems.STONE_GEM.get());
                         output.accept(ModItems.COAL_GEM.get());
                         output.accept(ModItems.EMERALD_GEM.get());

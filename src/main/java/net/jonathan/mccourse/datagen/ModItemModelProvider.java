@@ -68,6 +68,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.CATTAIL);
         simpleItem(ModItems.CATTAIL_SEEDS);
+        withExistingParent(ModItems.CREATURE_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {

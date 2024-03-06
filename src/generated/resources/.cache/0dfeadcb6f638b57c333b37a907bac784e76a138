@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-03T14:46:25.606808	Item Models: mccourse
+// 1.20.1	2024-03-05T17:58:08.3860491	Item Models: mccourse
 71badbc60185c294e740a7e69a688a1a52a23e11 assets/mccourse/models/item/alexandrite.json
 2708264e5c6062ce8fed21db45430ddac33ffa5c assets/mccourse/models/item/alexandrite_axe.json
 81a1e87c000330511a9b145e7951600d6922af72 assets/mccourse/models/item/alexandrite_boots.json
@@ -19,6 +19,7 @@ cc4ab4468ea9d286c8feaf44809a99228b853eb5 assets/mccourse/models/item/alexandrite
 7951dd7897b7d2d6cf1045960ec61e2f02288679 assets/mccourse/models/item/bar_brawl_record.json
 d4fec10683a382af96a8b45f15f0414c193fa5da assets/mccourse/models/item/cattail.json
 aefb6b8a7b57b7d9a6980899ce5c3ec630c38e46 assets/mccourse/models/item/cattail_seeds.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/mccourse/models/item/creature_spawn_egg.json
 eae9ea63d29bcb3e6592ee8132690be675ea7f9f assets/mccourse/models/item/dice.json
 2ab7eb05354c980c05330598767e6fb49d05ecbf assets/mccourse/models/item/gem_empowering_station.json
 6349d1adee80001ce5a46b787665a782e5c25798 assets/mccourse/models/item/kohlrabi.json

@@ -23,6 +23,8 @@ public class ModPotions {
             () -> new Potion(new MobEffectInstance(MobEffects.HEALTH_BOOST, 10000, 5)));
 
 
+
+
     public static final RegistryObject<Potion> SATURATION_POTION = POTIONS.register("saturation_potion",
             () -> new Potion(new MobEffectInstance(MobEffects.SATURATION, 999999, 245)));
     public static final RegistryObject<Potion> DAMAGE_RESISTANCE_POTION = POTIONS.register("damage_resistance_potion",

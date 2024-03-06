@@ -6,6 +6,7 @@ import net.jonathan.mccourse.block.entity.ModBlockEntities;
 import net.jonathan.mccourse.effect.ModEffects;
 import net.jonathan.mccourse.enchantment.ModEnchantments;
 import net.jonathan.mccourse.entity.ModEntities;
+import net.jonathan.mccourse.entity.client.CreatureRenderer;
 import net.jonathan.mccourse.entity.client.MagicProjectileRenderer;
 import net.jonathan.mccourse.entity.client.ModBoatRenderer;
 import net.jonathan.mccourse.entity.client.RhinoRenderer;
@@ -39,6 +40,7 @@ import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.core.Registry;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.level.block.Blocks;
@@ -133,9 +135,15 @@ public class MCCourseMod {
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.HEALING, Items.ENCHANTED_GOLDEN_APPLE, ModPotions.HEALTH_BOOST_POTION.get()));
 
+
+
             SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
         });
     }
+    // disable shield
+    // higher knockback
+    // faster attack
+    //
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -172,6 +180,7 @@ public class MCCourseMod {
                 MenuScreens.register(ModMenuTypes.KAUPEN_FURNACE_MENU.get(), KaupenFurnaceScreen::new);
 
                 EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
+                EntityRenderers.register(ModEntities.CREATURE.get(), CreatureRenderer::new);
                 EntityRenderers.register(ModEntities.DICE_PROJECTILE.get(), ThrownItemRenderer::new);
                 EntityRenderers.register(ModEntities.MAGIC_PROJECTILE.get(), MagicProjectileRenderer::new);
 
